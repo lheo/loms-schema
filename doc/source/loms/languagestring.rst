@@ -8,16 +8,12 @@ A character string (i.e. a finite set of characters) in the form of words of a l
 .. code-block:: xml
 
   <!-- SEQUENCE -->
-  <text>...Text...</text> <!-- 1,1 -->
+  <text>...</text> <!-- 1,1 -->
 
-.. list-table::
-    :widths: 25 25 50
-    :header-rows: 1
+Elements
+--------
 
-    * - Element
-      - Type
-      - Description
-    * - ``text``
-      - :ref:`text-type`
-      - A formatted character string (i.e. a finite set of characters) generally in the form of words of a language.
+``text``: :ref:`text-type`
+	A formatted character string (i.e. a finite set of characters) generally in the form of words of a language.
+
 

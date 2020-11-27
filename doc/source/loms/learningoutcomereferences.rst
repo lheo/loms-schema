@@ -8,16 +8,12 @@ LearningOutcomeReferences
 .. code-block:: xml
 
   <!-- CHOICE 1,n -->
-  <learningOutcome>...LearningOutcome...</learningOutcome>
+  <learningOutcome>...</learningOutcome>
 
-.. list-table::
-    :widths: 25 25 50
-    :header-rows: 1
+Elements
+--------
 
-    * - Element
-      - Type
-      - Description
-    * - ``learningOutcome``
-      - :ref:`learningoutcome-type`
-      - A learning outcome (i.e. knowledge, skill, autonomy-responsibility). The details, such as the description, of a learning outcome.
+``learningOutcome``: :ref:`learningoutcome-type`
+	A learning outcome (i.e. knowledge, skill, autonomy-responsibility). The details, such as the description, of a learning outcome.
+
 

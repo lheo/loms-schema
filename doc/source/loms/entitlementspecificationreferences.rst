@@ -8,16 +8,12 @@ EntitlementSpecificationReferences
 .. code-block:: xml
 
   <!-- SEQUENCE -->
-  <entitlementSpecification>...EntitlementSpecification...</entitlementSpecification> <!-- 0,n -->
+  <entitlementSpecification>...</entitlementSpecification> <!-- 0,n -->
 
-.. list-table::
-    :widths: 25 25 50
-    :header-rows: 1
+Elements
+--------
 
-    * - Element
-      - Type
-      - Description
-    * - ``entitlementSpecification``
-      - :ref:`entitlementspecification-type`
-      - .
+``entitlementSpecification``: :ref:`entitlementspecification-type`
+	.
+
 

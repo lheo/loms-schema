@@ -2,11 +2,22 @@
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
                 xmlns:xsd="http://www.w3.org/2001/XMLSchema" version="1.0">
     <xsl:output method="xml" indent="yes" encoding="utf-8"/>
-
+    <xsl:param name="action" select="'list-types'"/>
 
     <xsl:template match="/">
-    	<xsl:apply-templates select="/xsd:schema/xsd:element" mode="structure"/>
+        <xsl:choose>
+            <xsl:when test="$action = 'structure'">
+                <xsl:apply-templates select="/xsd:schema/xsd:element" mode="structure"/>
+		    </xsl:when>
+            <xsl:when test="$action = 'list-types'">
+                <xsl:call-template name="list-types"/>
+		    </xsl:when>
+	    </xsl:choose>
     </xsl:template>
+
+    <!--
+        Structure
+    -->
 
     <xsl:template match="xsd:element" mode="structure">
     	<xsl:variable name="min"><xsl:apply-templates select="." mode="min"/></xsl:variable>

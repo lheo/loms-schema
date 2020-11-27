@@ -13,14 +13,17 @@ LOMS documentation
  <https://europa.eu/europass/qdr/#/login>`_.
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
    :caption: Contents:
 
    loms
    loms/qmslearningopportunities
    loms/learningopportunitiesroot
-   loms/learningopportunityreferences
+   loms/learningopportunity
    loms/learningspecificationreferences
+   loms/learningactivityspecification
+   loms/learningspecification
+   loms/learningopportunityreferences
    loms/learningoutcomereferences
    loms/learningoutcomes
    loms/learningactivityspecificationreferences
@@ -29,7 +32,6 @@ LOMS documentation
    loms/agentreferences
    loms/scoringschemereferences
    loms/frameworkreferences
-   loms/learningopportunity
    loms/legalidentifier
    loms/numericscore
    loms/creditpoints
@@ -68,9 +70,7 @@ LOMS documentation
    loms/contactpoint
    loms/organization
    loms/semanticframework
-   loms/learningactivityspecification
    loms/assessmentspecification
-   loms/learningspecification
    loms/qualification
    loms/learningoutcome
    loms/awardingopportunity
@@ -85,7 +85,6 @@ LOMS documentation
    loms/relatedescoskill
    loms/limitoccupation
    loms/limitnationaloccupation
-
    loms/identifier
    loms/languagestring
    loms/note
@@ -133,7 +132,6 @@ LOMS documentation
    loms/mdradministrativeterritorialunitcodecontent
    loms/countrycodecontent
    loms/gradingscheme
-   
    notes
 
 Indices and tables

@@ -7,8 +7,6 @@
     <xsl:param name="typename" select="''"/>
     <xsl:variable name="lowercase" select="'abcdefghijklmnopqrstuvwxyz'" />
     <xsl:variable name="uppercase" select="'ABCDEFGHIJKLMNOPQRSTUVWXYZ'" />
-    <!-- TODO: xsd:group -->
-    <!-- TODO: type défini au vol -->
     <xsl:template match="/xsd:schema/xsd:element[@name]">
         <xsl:if test="@name = $typename">
             <xsl:apply-templates select="." mode="rstdoc"/>
@@ -57,11 +55,14 @@
         <xsl:apply-templates select="./xsd:sequence" mode="rstdoc-table"/>
         <xsl:apply-templates select="./xsd:choice" mode="rstdoc-table"/>
         <xsl:apply-templates select="./xsd:simpleContent/xsd:extension" mode="rstdoc-table"/>
+        <xsl:apply-templates select="./xsd:simpleContent/xsd:restriction" mode="rstdoc-table"/>
         <xsl:apply-templates select="./xsd:complexContent/xsd:restriction" mode="rstdoc-table"/>
+        <xsl:apply-templates select="./xsd:complexContent/xsd:extension" mode="rstdoc-table"/>
         <xsl:apply-templates select="./xsd:restriction" mode="rstdoc-table"/>
         <xsl:apply-templates select="./xsd:union" />
 
         <xsl:if test="count(xsd:attribute) &gt; 0">
+            <!--
             <xsl:text>&#10;</xsl:text>        
             <xsl:text>.. list-table::&#10;</xsl:text>
             <xsl:text>    :widths: 25 25 50&#10;</xsl:text>
@@ -69,6 +70,8 @@
             <xsl:text>    * - Attribute&#10;</xsl:text>
             <xsl:text>      - Type&#10;</xsl:text>
             <xsl:text>      - Description&#10;</xsl:text>
+            -->
+            <xsl:text>Attributes&#10;-----------&#10;&#10;</xsl:text>
             <xsl:apply-templates select="xsd:attribute" mode="rstdocattr-table"/>
             <xsl:text>&#10;</xsl:text>
         </xsl:if>
@@ -135,10 +138,10 @@
     <xsl:template match="xsd:element" mode="rstdocelement-xml">
         <xsl:text>  &lt;</xsl:text><xsl:value-of select="@name"/><xsl:text>&gt;</xsl:text>
         <xsl:text>...</xsl:text>
-        <xsl:call-template name="type-name">
+        <!--<xsl:call-template name="type-name">
             <xsl:with-param name="tname" select="@type"/>
         </xsl:call-template>
-        <xsl:text>...</xsl:text>
+        <xsl:text>...</xsl:text>-->
         <xsl:text>&lt;/</xsl:text><xsl:value-of select="@name"/><xsl:text>&gt;</xsl:text>
         <xsl:text> &lt;!-- </xsl:text>
         <xsl:apply-templates select="." mode="min"/>
@@ -163,32 +166,36 @@
     <xsl:template match="xsd:element" mode="rstdocchoiceelement-xml">
         <xsl:text>  &lt;</xsl:text><xsl:value-of select="@name"/><xsl:text>&gt;</xsl:text>
         <xsl:text>...</xsl:text>
-        <xsl:call-template name="type-name">
+        <!--<xsl:call-template name="type-name">
             <xsl:with-param name="tname" select="@type"/>
         </xsl:call-template>
-        <xsl:text>...</xsl:text>
+        <xsl:text>...</xsl:text>-->
         <xsl:text>&lt;/</xsl:text><xsl:value-of select="@name"/><xsl:text>&gt;</xsl:text>
         <xsl:text>&#10;</xsl:text>
     </xsl:template>
     <xsl:template match="xsd:sequence" mode="rstdoc-table">
+        <!--
         <xsl:text>.. list-table::&#10;</xsl:text>
         <xsl:text>    :widths: 25 25 50&#10;</xsl:text>
         <xsl:text>    :header-rows: 1&#10;&#10;</xsl:text>
         <xsl:text>    * - Element&#10;</xsl:text>
         <xsl:text>      - Type&#10;</xsl:text>
-        <xsl:text>      - Description&#10;</xsl:text>
+        <xsl:text>      - Description&#10;</xsl:text>-->
+        <xsl:text>Elements&#10;--------&#10;&#10;</xsl:text>
         <xsl:apply-templates select="xsd:group" mode="rstdoc-table"/>
         <xsl:apply-templates select="xsd:element" mode="rstdocelement-table"/>
         <xsl:apply-templates select="xsd:choice/xsd:element" mode="rstdocelement-table"/>
         <xsl:text>&#10;</xsl:text>
     </xsl:template>
     <xsl:template match="xsd:choice" mode="rstdoc-table">
+        <!--
         <xsl:text>.. list-table::&#10;</xsl:text>
         <xsl:text>    :widths: 25 25 50&#10;</xsl:text>
         <xsl:text>    :header-rows: 1&#10;&#10;</xsl:text>
         <xsl:text>    * - Element&#10;</xsl:text>
         <xsl:text>      - Type&#10;</xsl:text>
-        <xsl:text>      - Description&#10;</xsl:text>
+        <xsl:text>      - Description&#10;</xsl:text>-->
+        <xsl:text>Elements&#10;--------&#10;&#10;</xsl:text>
         <xsl:apply-templates select="xsd:element" mode="rstdocelement-table"/>
         <xsl:text>&#10;</xsl:text>
     </xsl:template>
@@ -203,7 +210,7 @@
     <xsl:template match="xsd:group" mode="rstdocelements-table">
         <xsl:apply-templates select="xsd:sequence/xsd:element" mode="rstdocelement-table"/>
     </xsl:template>
-
+    <!--
     <xsl:template match="xsd:element" mode="rstdocelement-table">
         <xsl:text>    * - ``</xsl:text><xsl:value-of select="@name"/><xsl:text>``&#10;</xsl:text>
         <xsl:text>      - </xsl:text>
@@ -214,6 +221,16 @@
         <xsl:text>      - </xsl:text>
         <xsl:apply-templates select="./xsd:annotation/xsd:documentation" mode="rstdoc"/>
         <xsl:text>&#10;</xsl:text>
+    </xsl:template>-->
+    
+    <xsl:template match="xsd:element" mode="rstdocelement-table">
+        <xsl:text>``</xsl:text><xsl:value-of select="@name"/><xsl:text>``: </xsl:text> 
+        <xsl:call-template name="type-reference">
+            <xsl:with-param name="tname" select="@type"/>
+        </xsl:call-template>
+        <xsl:text>&#10;&#9;</xsl:text>
+        <xsl:apply-templates select="./xsd:annotation/xsd:documentation" mode="rstdoc"/>
+        <xsl:text>&#10;&#10;</xsl:text>
     </xsl:template>
     <xsl:template match="xsd:extension" mode="rstdoc-table">
         <xsl:text>Extends: </xsl:text>
@@ -221,15 +238,33 @@
             <xsl:with-param name="tname" select="@base"/>
         </xsl:call-template>
         <xsl:text>&#10;</xsl:text>        
-        <xsl:text>&#10;</xsl:text>        
-        <xsl:text>.. list-table::&#10;</xsl:text>
-        <xsl:text>    :widths: 25 25 50&#10;</xsl:text>
-        <xsl:text>    :header-rows: 1&#10;&#10;</xsl:text>
-        <xsl:text>    * - Attribute&#10;</xsl:text>
-        <xsl:text>      - Type&#10;</xsl:text>
-        <xsl:text>      - Description&#10;</xsl:text>
-        <xsl:apply-templates select="xsd:attribute" mode="rstdocattr-table"/>
         <xsl:text>&#10;</xsl:text>
+        <xsl:apply-templates select="./xsd:sequence" mode="rstdoc-xml"/>
+        <xsl:apply-templates select="./xsd:choice" mode="rstdoc-xml"/>
+        <xsl:apply-templates select="./xsd:sequence" mode="rstdoc-table"/>
+        <xsl:apply-templates select="./xsd:choice" mode="rstdoc-table"/>
+        <xsl:if test="count(xsd:attribute) &gt; 0">
+        <!--    
+            <xsl:text>.. list-table::&#10;</xsl:text>
+            <xsl:text>    :widths: 25 25 50&#10;</xsl:text>
+            <xsl:text>    :header-rows: 1&#10;&#10;</xsl:text>
+            <xsl:text>    * - Attribute&#10;</xsl:text>
+            <xsl:text>      - Type&#10;</xsl:text>
+            <xsl:text>      - Description&#10;</xsl:text>-->
+            <xsl:text>Attributes&#10;-----------&#10;&#10;</xsl:text>
+            <xsl:apply-templates select="xsd:attribute" mode="rstdocattr-table"/>
+            <xsl:text>&#10;</xsl:text>
+        </xsl:if>
+            <xsl:if test="count(xsd:enumeration) &gt; 0">
+            <xsl:text>Allowed values:&#10;&#10;</xsl:text>
+            <xsl:apply-templates select="xsd:enumeration" mode="rstdocenum-list"/>
+            <xsl:text>&#10;</xsl:text>
+        </xsl:if>
+        <xsl:if test="count(xsd:pattern) &gt; 0">
+            <xsl:text>Allowed patterns:&#10;&#10;</xsl:text>
+            <xsl:apply-templates select="xsd:pattern" mode="rstdocenum-list"/>
+            <xsl:text>&#10;</xsl:text>
+        </xsl:if>
     </xsl:template>
     <xsl:template match="xsd:restriction" mode="rstdoc-table">
         <xsl:text>Restricts: </xsl:text>
@@ -238,13 +273,19 @@
         </xsl:call-template>
         <xsl:text>&#10;</xsl:text>
         <xsl:text>&#10;</xsl:text>
+        <xsl:apply-templates select="./xsd:sequence" mode="rstdoc-xml"/>
+        <xsl:apply-templates select="./xsd:choice" mode="rstdoc-xml"/>
+        <xsl:apply-templates select="./xsd:sequence" mode="rstdoc-table"/>
+        <xsl:apply-templates select="./xsd:choice" mode="rstdoc-table"/>
         <xsl:if test="count(xsd:attribute) &gt; 0">
+            <!--
             <xsl:text>.. list-table::&#10;</xsl:text>
             <xsl:text>    :widths: 25 25 50&#10;</xsl:text>
             <xsl:text>    :header-rows: 1&#10;&#10;</xsl:text>
             <xsl:text>    * - Attribute&#10;</xsl:text>
             <xsl:text>      - Type&#10;</xsl:text>
-            <xsl:text>      - Description&#10;</xsl:text>
+            <xsl:text>      - Description&#10;</xsl:text>-->
+            <xsl:text>Attributes&#10;-----------&#10;&#10;</xsl:text>
             <xsl:apply-templates select="xsd:attribute" mode="rstdocattr-table"/>
             <xsl:text>&#10;</xsl:text>
         </xsl:if>
@@ -260,6 +301,7 @@
         </xsl:if>
     </xsl:template>
     <xsl:template match="xsd:attribute[@type]" mode="rstdocattr-table">
+        <!--
         <xsl:text>    * - ``</xsl:text><xsl:value-of select="@name"/><xsl:text>``&#10;</xsl:text>
         <xsl:text>      - ``</xsl:text>
         <xsl:apply-templates select="." mode="use"/>
@@ -271,8 +313,20 @@
         <xsl:text>      - </xsl:text>
         <xsl:apply-templates select="./xsd:annotation/xsd:documentation" mode="rstdoc"/>
         <xsl:text>&#10;</xsl:text>
+        -->
+        <xsl:text>``</xsl:text><xsl:value-of select="@name"/><xsl:text>``: </xsl:text>
+        <xsl:text>``</xsl:text>
+        <xsl:apply-templates select="." mode="use"/>
+        <xsl:text>`` </xsl:text>
+        <xsl:call-template name="type-reference">
+            <xsl:with-param name="tname" select="@type"/>
+        </xsl:call-template>
+        <xsl:text>&#10;&#9;</xsl:text>
+        <xsl:apply-templates select="./xsd:annotation/xsd:documentation" mode="rstdoc"/>
+        <xsl:text>&#10;&#10;</xsl:text>
     </xsl:template>
     <xsl:template match="xsd:attribute[not(@type)]" mode="rstdocattr-table">
+        <!--
         <xsl:text>    * - ``</xsl:text><xsl:value-of select="@name"/><xsl:text>``&#10;</xsl:text>
         <xsl:text>      - ``</xsl:text>
         <xsl:apply-templates select="." mode="use"/>
@@ -284,6 +338,17 @@
         <xsl:text>      - </xsl:text>
         <xsl:apply-templates select="./xsd:annotation/xsd:documentation" mode="rstdoc"/>
         <xsl:text>&#10;</xsl:text>
+        -->
+        <xsl:text>``</xsl:text><xsl:value-of select="@name"/><xsl:text>``: </xsl:text>
+        <xsl:text>``</xsl:text>
+        <xsl:apply-templates select="." mode="use"/>
+        <xsl:text>`` </xsl:text>
+        <xsl:call-template name="type-reference">
+            <xsl:with-param name="tname" select="'xs:string'"/>
+        </xsl:call-template>
+        <xsl:text>&#10;&#9;</xsl:text>
+        <xsl:apply-templates select="./xsd:annotation/xsd:documentation" mode="rstdoc"/>
+        <xsl:text>&#10;&#10;</xsl:text>
     </xsl:template>
     <xsl:template match="xsd:enumeration|xsd:pattern[substring(@value, 1, 4)!='http']" mode="rstdocenum-list">
         <xsl:text>- ``</xsl:text>
