@@ -1,0 +1,1703 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<qmsLearningOpportunities xmlns="http://data.europa.eu/europass/qms-xml/schema/learning-opportunities" 
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+    xsi:schemaLocation="http://data.europa.eu/europass/qms-xml/schema/learning-opportunities qms_learningOpportunities.xsd" 
+    xsdVersion="1.1.0">
+    <learningOpportunities>
+        <learningOpportunity id="http://data.europa.eu/esco/qdr/learningopportunity/0001">
+            <identifier
+                schemeID="testLOpIdentifierSchemeID_0001"
+                schemeAgencyID="http://testLOpIdentifierSchemeAgencyID_0001.com"
+                schemeAgencyName="testLOpIdentifierSchemeAgencyName_0001"
+                issuedDate="2000-04-01T00:00:00"
+                spatialID="http://publications.europa.eu/resource/authority/country/BEL">LOP0001ID01</identifier>
+            <identifier
+                schemeID="testLOpIdentifier2SchemeID_0001"
+                schemeAgencyID="http://testLOpIdentifier2SchemeAgencyID_0001.com"
+                schemeAgencyName="testLOpIdentifier2SchemeAgencyName_0001"
+                issuedDate="2001-04-01T00:00:00"
+                spatialID="http://publications.europa.eu/resource/authority/country/NLD">LOP0001ID02</identifier>
+            <title>
+            	<text content-type="text/plain" lang="en">learning opportunity 0001 'en' title</text>
+            </title>
+            <title>
+            	<text content-type="text/plain" lang="nl">learning specification 0001 'nl' title</text>
+            </title>
+            <altLabel>
+            	<text content-type="text/plain" lang="en">learning opportunity 0001 'en' altLabel</text>
+            </altLabel>
+            <altLabel>
+            	<text content-type="text/plain" lang="nl">learning opportunity 0001 'nl' altLabel</text>
+            </altLabel>
+            <description>
+                <text lang="en" content-type="text/plain">learning opportunity 0001 'en' description</text>
+                <subject uri="http://data.europa.eu/esco/qualification-topics#awarding-activity"></subject>
+                <subject uri="http://data.europa.eu/esco/qualification-topics#contact-info"></subject>
+            </description>
+            <description>
+                <text lang="nl" content-type="text/html"><![CDATA[<b>learning opportunity 0001 'nl' description</b>]]></text>
+                <subject uri="http://data.europa.eu/esco/qualification-topics#pathways"></subject>
+            </description>
+            <additionalNote>
+                <text lang="en" content-type="text/html"><![CDATA[<b>learning opportunity 0001 'en' additionalNote</b>]]></text>
+                <subject uri="http://data.europa.eu/esco/qualification-topics#learning-outcomes"></subject>
+                <subject uri="http://data.europa.eu/esco/qualification-topics#accreditation-and-quality-assurance"></subject>
+            </additionalNote>
+            <additionalNote>
+                <text lang="nl" content-type="text/plain">learning opportunity 0001 'nl' additionalNote</text>
+                <subject uri="http://data.europa.eu/esco/qualification-topics#labour-market-and-employment"></subject>
+            </additionalNote>
+            <homepage uri="https://example.com/lop0001/homepage/1/">
+                <title>
+                	<text content-type="text/plain" lang="en">learning opportunity 0001 homepage 1 'en' title</text>
+                </title>
+                <title>
+                	<text content-type="text/plain" lang="nl">learning opportunity 0001 homepage 1 'nl' title</text>
+                </title>
+                <language uri="http://publications.europa.eu/resource/authority/language/ENG"></language>
+                <language uri="http://publications.europa.eu/resource/authority/language/NLD"></language>
+                <subject uri="http://data.europa.eu/esco/qualification-topics#assessment"></subject>
+                <subject uri="http://data.europa.eu/esco/qualification-topics#awarding-activity"></subject>
+            </homepage>
+            <homepage uri="https://example.com/lop0001/homepage/2/" />
+            <supplementaryDoc uri="https://example.com/lop0001/supDoc/1/">
+                <title>
+                	<text content-type="text/plain" lang="en">learning opportunity 0001 sup doc 1 'en' title</text>
+                </title>
+                <title>
+                	<text content-type="text/plain" lang="nl">learning opportunity 0001 sup doc 1 'nl' title</text>
+                </title>
+                <language uri="http://publications.europa.eu/resource/authority/language/ENG"></language>
+                <language uri="http://publications.europa.eu/resource/authority/language/NLD"></language>
+                <subject uri="http://data.europa.eu/esco/qualification-topics#history-and-lifecycle"></subject>
+                <subject uri="http://data.europa.eu/esco/qualification-topics#regulations-and-certificates"></subject>
+            </supplementaryDoc>
+            <supplementaryDoc uri="https://example.com/lop0001/supDoc/2/">
+                <title>
+                	<text content-type="text/plain" lang="en">learning opportunity 0001 sup doc 2 'en' title</text>
+                </title>
+                <title>
+                	<text content-type="text/plain" lang="nl">learning opportunity 0001 sup doc 2 'nl' title</text>
+                </title>
+                <subject uri="http://data.europa.eu/esco/qualification-topics#history-and-lifecycle"></subject>
+            </supplementaryDoc>
+            <supplementaryDoc uri="https://example.com/lop0001/supDoc/3/" />
+            <startedAtDate>2021-05-07Z</startedAtDate>
+            <endedAtDate>2021-06-18Z</endedAtDate>
+            <duration>P4Y5M1DT1H10M0S</duration>
+            <learningSchedule uri="http://data.europa.eu/europass/learningScheduleType/partTimeLight" />
+            <scheduleInformation>
+                <text lang="en" content-type="text/plain">learning opportunity 0001 scheduleInformation 1 'en'</text>
+                <subject uri="http://data.europa.eu/esco/qualification-topics#labour-market-and-employment"></subject>
+                <subject uri="http://data.europa.eu/esco/qualification-topics#learning-outcomes"></subject>
+            </scheduleInformation>
+            <scheduleInformation>
+                <text lang="nl" content-type="text/html"><![CDATA[<b>learning opportunity 0001 scheduleInformation 2 'nl'</b>]]></text>
+                <subject uri="http://data.europa.eu/esco/qualification-topics#accreditation-and-quality-assurance"></subject>
+            </scheduleInformation>
+            <admissionProcedure>
+                <text lang="en" content-type="text/plain">learning opportunity 0001 admissionProcedure 1 'en'</text>
+                <subject uri="http://data.europa.eu/esco/qualification-topics#pathways"></subject>
+            </admissionProcedure>
+            <admissionProcedure>
+                <text lang="nl" content-type="text/html"><![CDATA[<b>learning opportunity 0001 admissionProcedure 1 'en'</b>]]></text>
+                <subject uri="http://data.europa.eu/esco/qualification-topics#history-and-lifecycle"></subject>
+            </admissionProcedure>
+            <priceDetails>
+                <amount unit="http://publications.europa.eu/resource/authority/currency/EUR">100</amount>
+                <name>
+                	<text content-type="text/plain" lang="en">learning opportunity 0001 priceDetails 1 name 'en'</text>
+                </name>
+                <name>
+                	<text content-type="text/plain" lang="nl">learning opportunity 0001 priceDetails 1 name 'nl'</text>
+                </name>
+                <description>
+                    <text lang="en" content-type="text/plain">learning opportunity 0001 priceDetails 1 description 'en'</text>
+                    <subject uri="http://data.europa.eu/esco/qualification-topics#accreditation-and-quality-assurance"></subject>
+                </description>
+                <description>
+                    <text lang="nl" content-type="text/html"><![CDATA[<b>learning opportunity 0001 priceDetails 1 description 'nl'</b>]]></text>
+                    <subject uri="http://data.europa.eu/esco/qualification-topics#regulations-and-certificates"></subject>
+                </description>
+                <additionalNote>
+                    <text lang="en" content-type="text/plain">learning opportunity 0001 priceDetails 1 additionalNote 'en'</text>
+                    <subject uri="http://data.europa.eu/esco/qualification-topics#awarding-activity"></subject>
+                    <subject uri="http://data.europa.eu/esco/qualification-topics#entry-requirements"></subject>
+                </additionalNote>
+                <additionalNote>
+                    <text lang="nl" content-type="text/html"><![CDATA[<b>learning opportunity 0001 priceDetails 1 additionalNote 'nl'</b>]]></text>
+                    <subject uri="http://data.europa.eu/esco/qualification-topics#ways-to-acquire"></subject>
+                </additionalNote>
+            </priceDetails>
+            <priceDetails>
+                <amount unit="http://publications.europa.eu/resource/authority/currency/USD">110</amount>
+            </priceDetails>
+            <providedBy idref="http://www.example.com/organization/0002"/>
+            <providedBy idref="http://www.example.com/organization/0003"/>
+            <providedAt>
+                <identifier
+                    schemeID="testLOpPaIdentifierSchemeID_0001"
+                    schemeAgencyID="http://testLOpPaIdentifierSchemeAgencyID_0001.com"
+                    schemeAgencyName="testLOpPaIdentifierSchemeAgencyName_0001"
+                    issuedDate="2000-03-01T00:00:00"
+                    spatialID="http://publications.europa.eu/resource/authority/country/BEL">LOPPA0001ID01</identifier>
+                <identifier
+                    schemeID="testLOpPaIdentifier2SchemeID_0001"
+                    schemeAgencyID="http://testLOpPaIdentifier2SchemeAgencyID_0001.com"
+                    schemeAgencyName="testLOpPaIdentifier2SchemeAgencyName_0001"
+                    issuedDate="2001-03-01T00:00:00"
+                    spatialID="http://publications.europa.eu/resource/authority/country/NLD">LOPPA0001ID02</identifier>
+                <name>
+                	<text content-type="text/plain" lang="en">learning opportunity 0001 providedAt 1 'en'</text>
+                </name>
+                <name>
+                	<text content-type="text/plain" lang="nl">learning opportunity 0001 providedAt 1 'nl'</text>
+                </name>
+                <description>
+                    <text lang="en" content-type="text/plain">learning opportunity 0001 providedAt 1 description 'en'</text>
+                    <subject uri="http://data.europa.eu/esco/qualification-topics#awarding-activity"></subject>
+                    <subject uri="http://data.europa.eu/esco/qualification-topics#contact-info"></subject>
+                </description>
+                <description>
+                    <text lang="nl" content-type="text/html"><![CDATA[<b>learning opportunity 0001 providedAt 1 description 'nl'</b>]]></text>
+                    <subject uri="http://data.europa.eu/esco/qualification-topics#assessment"></subject>
+                    <subject uri="http://data.europa.eu/esco/qualification-topics#accreditation-and-quality-assurance"></subject>
+                </description>
+                <hasAddress>
+                    <identifier
+                        schemeID="testLOpPaHaIdentifierSchemeID_0001"
+                        schemeAgencyID="http://testLOpPaHaIdentifierSchemeAgencyID_0001.com"
+                        schemeAgencyName="testLOpPaHaIdentifierSchemeAgencyName_0001"
+                        issuedDate="2000-02-01T00:00:00"
+                        spatialID="http://publications.europa.eu/resource/authority/country/BEL">LOPPAHA0001ID01</identifier>
+                    <identifier
+                        schemeID="testLOpPaHaIdentifier2SchemeID_0001"
+                        schemeAgencyID="http://testLOpPaHaIdentifier2SchemeAgencyID_0001.com"
+                        schemeAgencyName="testLOpPaHaIdentifier2SchemeAgencyName_0001"
+                        issuedDate="2001-02-01T00:00:00"
+                        spatialID="http://publications.europa.eu/resource/authority/country/NLD">LOPPAHA0001ID02</identifier>
+                    <fullAddress>
+                        <text lang="en" content-type="text/plain">learning opportunity 0001 providedAt 1 hasAddress 1 fullAddress 'en'</text>
+                    </fullAddress>
+                    <fullAddress>
+                        <text lang="nl" content-type="text/html"><![CDATA[<b>learning opportunity 0001 providedAt 1 hasAddress 1 fullAddress 'nl'</b>]]></text>
+                    </fullAddress>
+                    <country uri="http://publications.europa.eu/resource/authority/country/MAF" />
+                </hasAddress>
+                <hasAddress>
+                    <country uri="http://publications.europa.eu/resource/authority/country/LBY" />
+                </hasAddress>
+                <hasAddress />
+                <spatialCode uri="http://data.europa.eu/esco/nuts/DEC05" />
+                <spatialCode uri="http://data.europa.eu/esco/nuts/DED51" />
+            </providedAt>
+            <providedAt>
+                <spatialCode uri="http://data.europa.eu/esco/nuts/DED53"></spatialCode>
+            </providedAt>
+            <providedAt />
+            <specifiedBy idref="http://data.europa.eu/esco/qdr/learning/spec/0001"/>
+            <hasPart idref="http://data.europa.eu/esco/qdr/learningopportunity/0003"/>
+            <hasPart idref="http://data.europa.eu/esco/qdr/learningopportunity/0004"/>
+        </learningOpportunity>
+        <learningOpportunity id="http://data.europa.eu/esco/qdr/learningopportunity/0002">
+            <identifier
+                schemeID="testLOpIdentifierSchemeID_0002"
+                schemeAgencyID="http://testLOpIdentifierSchemeAgencyID_0002.com"
+                schemeAgencyName="testLOpIdentifierSchemeAgencyName_0002"
+                issuedDate="2000-04-01T00:00:00"
+                spatialID="http://publications.europa.eu/resource/authority/country/BEL">LOP0002ID01</identifier>
+            <title>
+            	<text content-type="text/plain" lang="en">learning opportunity 0002 'en' title</text>
+            </title>
+            <providedBy idref="http://www.example.com/organization/0002"/>
+            <specifiedBy idref="http://data.europa.eu/esco/qdr/learning/spec/0002"/>
+        </learningOpportunity>
+        <learningOpportunity id="http://data.europa.eu/esco/qdr/learningopportunity/0003">
+            <identifier
+                schemeID="testLOpIdentifierSchemeID_0003"
+                schemeAgencyID="http://testLOpIdentifierSchemeAgencyID_0003.com"
+                schemeAgencyName="testLOpIdentifierSchemeAgencyName_0003"
+                issuedDate="2000-04-01T00:00:00"
+                spatialID="http://publications.europa.eu/resource/authority/country/BEL">LOP0003ID01</identifier>
+            <title>
+            	<text content-type="text/plain" lang="en">learning opportunity 0003 'en' title</text>
+            </title>
+            <providedBy idref="http://www.example.com/organization/0003"/>
+            <specifiedBy idref="http://data.europa.eu/esco/qdr/learning/spec/0003"/>
+        </learningOpportunity>
+        <learningOpportunity id="http://data.europa.eu/esco/qdr/learningopportunity/0004">
+            <identifier
+                schemeID="testLOpIdentifierSchemeID_0004"
+                schemeAgencyID="http://testLOpIdentifierSchemeAgencyID_0004.com"
+                schemeAgencyName="testLOpIdentifierSchemeAgencyName_0004"
+                issuedDate="2000-04-01T00:00:00"
+                spatialID="http://publications.europa.eu/resource/authority/country/BEL">LOP0004ID01</identifier>
+            <title>
+            	<text content-type="text/plain" lang="en">learning opportunity 0004 'en' title</text>
+            </title>
+            <providedBy idref="http://www.example.com/organization/0004"/>
+            <specifiedBy idref="http://data.europa.eu/esco/qdr/learning/spec/0004"/>
+        </learningOpportunity>
+        <learningOpportunity id="http://data.europa.eu/esco/qdr/learningopportunity/0005">
+            <identifier
+                schemeID="testLOpIdentifierSchemeID_0005"
+                schemeAgencyID="http://testLOpIdentifierSchemeAgencyID_0005.com"
+                schemeAgencyName="testLOpIdentifierSchemeAgencyName_0005"
+                issuedDate="2000-04-01T00:00:00"
+                spatialID="http://publications.europa.eu/resource/authority/country/BEL">LOP0005ID01</identifier>
+            <title>
+            	<text content-type="text/plain" lang="en">learning opportunity 0005 'en' title</text>
+            </title>
+            <providedBy idref="http://www.example.com/organization/0005"/>
+            <specifiedBy idref="http://data.europa.eu/esco/qdr/learning/spec/0005"/>
+        </learningOpportunity>
+    </learningOpportunities>
+    <learningSpecificationReferences>
+        <learningSpecification id="http://data.europa.eu/esco/qdr/learning/spec/0001">
+            <identifier
+                schemeID="testLSIdentifierSchemeID_0001"
+                schemeAgencyID="http://testLSIdentifierSchemeAgencyID_0001.com"
+                schemeAgencyName="testLSIdentifierSchemeAgencyName_0001"
+                issuedDate="2000-07-01T00:00:00"
+                spatialID="http://publications.europa.eu/resource/authority/country/BEL">LS0001ID01</identifier>
+            <identifier
+                schemeID="testLSIdentifier2SchemeID_0001"
+                schemeAgencyID="http://testLSIdentifier2SchemeAgencyID_0001.com"
+                schemeAgencyName="testLSIdentifier2SchemeAgencyName_0001"
+                issuedDate="2001-07-01T00:00:00"
+                spatialID="http://publications.europa.eu/resource/authority/country/NLD">LS0001ID02</identifier>
+            <type uri="http://data.europa.eu/europass/learningOpportunityType/educationalProgram" />
+            <type uri="http://data.europa.eu/europass/learningOpportunityType/course" />
+            <title>
+            	<text content-type="text/plain" lang="en">learning specification 0001 'en' title</text>
+            </title>
+            <title>
+            	<text content-type="text/plain" lang="nl">learning specification 0001 'nl' title</text>
+            </title>
+            <altLabel>
+            	<text content-type="text/plain" lang="en">learning specification 0001 'en' altLabel</text>
+            </altLabel>
+            <altLabel>
+            	<text content-type="text/plain" lang="nl">learning specification 0001 'nl' altLabel</text>
+            </altLabel>
+            <definition>
+                <text lang="en" content-type="text/plain">learning specification 0001 'en' definition</text>
+                <subject uri="http://data.europa.eu/esco/qualification-topics#ways-to-acquire"></subject>
+                <subject uri="http://data.europa.eu/esco/qualification-topics#assessment"></subject>
+            </definition>
+            <definition>
+                <text lang="nl" content-type="text/html"><![CDATA[<b>learning specification 0001 'nl' definition</b>]]></text>
+                <subject uri="http://data.europa.eu/esco/qualification-topics#contact-info"></subject>
+                <subject uri="http://data.europa.eu/esco/qualification-topics#labour-market-and-employment"></subject>
+            </definition>
+            <description>
+                <text lang="en" content-type="text/plain">learning specification 0001 'en' description</text>
+                <subject uri="http://data.europa.eu/esco/qualification-topics#awarding-activity"></subject>
+                <subject uri="http://data.europa.eu/esco/qualification-topics#contact-info"></subject>
+            </description>
+            <description>
+                <text lang="nl" content-type="text/html"><![CDATA[<b>learning specification 0001 'nl' description</b>]]></text>
+                <subject uri="http://data.europa.eu/esco/qualification-topics#pathways"></subject>
+            </description>
+            <additionalNote>
+                <text lang="en" content-type="text/html"><![CDATA[<b>learning specification 0001 'en' additionalNote</b>]]></text>
+                <subject uri="http://data.europa.eu/esco/qualification-topics#learning-outcomes"></subject>
+                <subject uri="http://data.europa.eu/esco/qualification-topics#accreditation-and-quality-assurance"></subject>
+            </additionalNote>
+            <additionalNote>
+                <text lang="nl" content-type="text/plain">learning specification 0001 'nl' additionalNote</text>
+                <subject uri="http://data.europa.eu/esco/qualification-topics#labour-market-and-employment"></subject>
+            </additionalNote>
+            <homepage uri="https://example.com/ls0001/homepage/1/">
+                <title>
+                	<text content-type="text/plain" lang="en">learning specification 0001 homepage 1 'en' title</text>
+                </title>
+                <title>
+                	<text content-type="text/plain" lang="nl">learning specification 0001 homepage 1 'nl' title</text>
+                </title>
+                <language uri="http://publications.europa.eu/resource/authority/language/ENG"></language>
+                <language uri="http://publications.europa.eu/resource/authority/language/NLD"></language>
+                <subject uri="http://data.europa.eu/esco/qualification-topics#assessment"></subject>
+                <subject uri="http://data.europa.eu/esco/qualification-topics#awarding-activity"></subject>
+            </homepage>
+            <homepage uri="https://example.com/ls0001/homepage/2/" />
+            <supplementaryDoc uri="https://example.com/ls0001/supDoc/1/">
+                <title>
+                	<text content-type="text/plain" lang="en">learning specification 0001 sup doc 1 'en' title</text>
+                </title>
+                <title>
+                	<text content-type="text/plain" lang="nl">learning specification 0001 sup doc 1 'nl' title</text>
+                </title>
+                <language uri="http://publications.europa.eu/resource/authority/language/ENG"></language>
+                <language uri="http://publications.europa.eu/resource/authority/language/NLD"></language>
+                <subject uri="http://data.europa.eu/esco/qualification-topics#history-and-lifecycle"></subject>
+                <subject uri="http://data.europa.eu/esco/qualification-topics#regulations-and-certificates"></subject>
+            </supplementaryDoc>
+            <supplementaryDoc uri="https://example.com/ls0001/supDoc/2/">
+                <title>
+                	<text content-type="text/plain" lang="en">learning specification 0001 sup doc 2 'en' title</text>
+                </title>
+                <title>
+                	<text content-type="text/plain" lang="nl">learning specification 0001 sup doc 2 'nl' title</text>
+                </title>
+                <subject uri="http://data.europa.eu/esco/qualification-topics#history-and-lifecycle"></subject>
+            </supplementaryDoc>
+            <supplementaryDoc uri="https://example.com/ls0001/supDoc/3/"/>
+            <hasISCED-FCode uri="http://data.europa.eu/esco/isced-f/042"/>
+            <hasISCED-FCode uri="http://data.europa.eu/esco/isced-f/080"/>
+            <hasEducationSubject
+                targetNotation="LS0001HESO01targetNotation"
+                targetFrameworkUrl="http://www.example.com/LS0001HESO01targetFrameworkUrl/"
+                targetFrameworkID="http://www.example.com/semanticFramework/0002"
+                targetFrameworkSpatialID="http://data.europa.eu/esco/nuts/NO062">
+                <targetName>
+                	<text content-type="text/plain" lang="en">learning specification 0001 hasEducationSubject 1 targetName in 'en'</text>
+                </targetName>
+                <targetName>
+                	<text content-type="text/plain" lang="nl">learning specification 0001 hasEducationSubject 1 targetName in 'nl'</text>
+                </targetName>
+                <targetDescription>
+                    <text lang="en" content-type="text/html"><![CDATA[<b>learning specification 0001 hasEducationSubject 1 targetDescription in 'en'</b>]]></text>
+                    <subject uri="http://data.europa.eu/esco/qualification-topics#accreditation-and-quality-assurance"></subject>
+                    <subject uri="http://data.europa.eu/esco/qualification-topics#labour-market-and-employment"></subject>
+                </targetDescription>
+                <targetDescription>
+                    <text lang="nl" content-type="text/plain">learning specification 0001 hasEducationSubject 1 targetDescription in 'nl'</text>
+                    <subject uri="http://data.europa.eu/esco/qualification-topics#labour-market-and-employment"></subject>
+                </targetDescription>
+                <targetFrameworkName>
+                    <text lang="en" content-type="text/plain">LS0001HESO01targetFrameworkName</text>
+                </targetFrameworkName>
+            </hasEducationSubject>
+            <hasEducationSubject targetFrameworkSpatialID="http://data.europa.eu/esco/nuts/UKK21" />            
+            <hasEducationSubject />
+            <volumeOfLearning>P8Y2M6DT1H10M0S</volumeOfLearning>
+            <hasECTSCreditPoints schemeID="http://data.europa.eu/europass/educationalCreditPointSystem/ects">360</hasECTSCreditPoints>
+            <hasCreditPoints schemeID="http://data.europa.eu/europass/educationalCreditPointSystem/ects">360</hasCreditPoints>
+            <hasCreditPoints schemeID="http://data.europa.eu/europass/educationalCreditPointSystem/ecvet">240</hasCreditPoints>
+            <hasEducationLevel
+                targetNotation="LS0001HELO01targetNotation"
+                targetFrameworkUrl="http://www.example.com/LS0001HELO01targetFrameworkUrl/"
+                targetFrameworkID="http://www.example.com/semanticFramework/0003"
+                targetFrameworkSpatialID="http://data.europa.eu/esco/nuts/NO062">
+                <targetName>
+                	<text content-type="text/plain" lang="en">learning specification 0001 hasEducationLevel 1 targetName in 'en'</text>
+                </targetName>
+                <targetName>
+                	<text content-type="text/plain" lang="nl">learning specification 0001 hasEducationLevel 1 targetName in 'nl'</text>
+                </targetName>
+                <targetDescription>
+                    <text lang="en" content-type="text/html"><![CDATA[<b>learning specification 0001 hasEducationLevel 1 targetDescription in 'en'</b>]]></text>
+                    <subject uri="http://data.europa.eu/esco/qualification-topics#accreditation-and-quality-assurance" />
+                    <subject uri="http://data.europa.eu/esco/qualification-topics#labour-market-and-employment" />
+                </targetDescription>
+                <targetDescription>
+                    <text lang="nl" content-type="text/plain">learning specification 0001 hasEducationLevel 1 targetDescription in 'nl'</text>
+                    <subject uri="http://data.europa.eu/esco/qualification-topics#labour-market-and-employment" />
+                </targetDescription>
+                <targetFrameworkName>
+                    <text lang="en" content-type="text/plain">LS0001HELO01targetFrameworkName</text>
+                </targetFrameworkName>
+            </hasEducationLevel>
+            <hasEducationLevel targetFrameworkSpatialID="http://data.europa.eu/esco/nuts/UKK21" />            
+            <hasEducationLevel />
+            <language uri="http://publications.europa.eu/resource/authority/language/ENG" />
+            <language uri="http://publications.europa.eu/resource/authority/language/NLD" />
+            <mode uri="http://data.europa.eu/europass/modeOfLearningAndAssessment/workbased" />
+            <mode uri="http://data.europa.eu/europass/modeOfLearningAndAssessment/online" />
+            <learningSettingType uri="http://data.europa.eu/europass/learningSettingType/formal" />
+            <duration>P1Y</duration>
+            <targetGroup uri="http://data.europa.eu/europass/targetGroup/adults" />
+            <targetGroup uri="http://data.europa.eu/europass/targetGroup/culture" />
+            <entryRequirementsNote>
+                <text lang="en" content-type="text/html"><![CDATA[<b>learning specification 0001 entryRequirementsNote 1 targetDescription in 'en'</b>]]></text>
+                <subject uri="http://data.europa.eu/esco/qualification-topics#ways-to-acquire"></subject>
+                <subject uri="http://data.europa.eu/esco/qualification-topics#regulations-and-certificates"></subject>
+            </entryRequirementsNote>
+            <entryRequirementsNote>
+                <text lang="nl" content-type="text/plain">learning specification 0001 entryRequirementsNote 1 targetDescription in 'nl'</text>
+                <subject uri="http://data.europa.eu/esco/qualification-topics#contact-info"></subject>
+            </entryRequirementsNote>
+            <learningOutcomes>
+                <learningOutcome idref="http://data.europa.eu/esco/qdr/learningoutcome/0001"/>
+                <learningOutcome idref="http://data.europa.eu/esco/qdr/learningoutcome/0002"/>
+            </learningOutcomes>
+            <learningActivitySpecification idref="http://data.europa.eu/esco/qdr/activitySpecification/0001"/>
+            <assessmentSpecification idref="http://data.europa.eu/esco/qdr/assessmentspec/0001"/>
+            <entitlementSpecification idref="http://www.example.com/entitlementSpec/0001"/>
+            <entitlementSpecification idref="http://www.example.com/entitlementSpec/0002"/>
+            <awardingOpportunities>
+                <awardingOpportunity>
+                    <organization idref="http://www.example.com/organization/0001"/>
+                    <organization idref="http://www.example.com/organization/0002"/>
+                    <location uri="http://data.europa.eu/esco/nuts/DE266"></location>
+                    <startedAtTime>2021-02-13T12:51:46</startedAtTime>
+                    <endedAtTime>2020-08-06T12:51:46Z</endedAtTime>
+                </awardingOpportunity>
+                <awardingOpportunity>
+                    <organization idref="http://www.example.com/organization/0003"/>
+                </awardingOpportunity>
+                <awardingOpportunity />
+            </awardingOpportunities>
+            <hasPart idref="http://data.europa.eu/esco/qdr/learning/spec/0002"/>
+            <hasPart idref="http://data.europa.eu/esco/qdr/learning/spec/0003"/>
+            <specializationOf idref="http://data.europa.eu/esco/qdr/learning/spec/0004"/>
+            <specializationOf idref="http://data.europa.eu/esco/qdr/learning/spec/0005"/>
+        </learningSpecification>
+        <learningSpecification id="http://data.europa.eu/esco/qdr/learning/spec/0002">
+            <identifier
+                schemeID="testLSIdentifierSchemeID_0002"
+                schemeAgencyID="http://testLSIdentifierSchemeAgencyID_0002.com"
+                schemeAgencyName="testLSIdentifierSchemeAgencyName_0002"
+                issuedDate="2000-07-01T00:00:00"
+                spatialID="http://publications.europa.eu/resource/authority/country/BEL">LS0002ID01</identifier>
+            <title>
+            	<text content-type="text/plain" lang="en">learning specification 0002 'en' title</text>
+            </title>
+            <hasISCED-FCode uri="http://data.europa.eu/esco/isced-f/042"/>
+            <learningOutcomes>
+                <learningOutcome idref="http://data.europa.eu/esco/qdr/learningoutcome/0002"/>
+            </learningOutcomes>
+        </learningSpecification>
+        <learningSpecification id="http://data.europa.eu/esco/qdr/learning/spec/0003">
+            <identifier
+                schemeID="testLSIdentifierSchemeID_0003"
+                schemeAgencyID="http://testLSIdentifierSchemeAgencyID_0003.com"
+                schemeAgencyName="testLSIdentifierSchemeAgencyName_0003"
+                issuedDate="2000-07-01T00:00:00"
+                spatialID="http://publications.europa.eu/resource/authority/country/BEL">LS0003ID01</identifier>
+            <title>
+            	<text content-type="text/plain" lang="en">learning specification 0003 'en' title</text>
+            </title>
+            <hasISCED-FCode uri="http://data.europa.eu/esco/isced-f/042"/>
+            <learningOutcomes>
+                <learningOutcome idref="http://data.europa.eu/esco/qdr/learningoutcome/0003"/>
+            </learningOutcomes>
+        </learningSpecification>
+        <learningSpecification id="http://data.europa.eu/esco/qdr/learning/spec/0004">
+            <identifier
+                schemeID="testLSIdentifierSchemeID_0004"
+                schemeAgencyID="http://testLSIdentifierSchemeAgencyID_0004.com"
+                schemeAgencyName="testLSIdentifierSchemeAgencyName_0004"
+                issuedDate="2000-07-01T00:00:00"
+                spatialID="http://publications.europa.eu/resource/authority/country/BEL">LS0004ID01</identifier>
+            <title>
+            	<text content-type="text/plain" lang="en">learning specification 0004 'en' title</text>
+            </title>
+            <hasISCED-FCode uri="http://data.europa.eu/esco/isced-f/042"/>
+            <learningOutcomes>
+                <learningOutcome idref="http://data.europa.eu/esco/qdr/learningoutcome/0004"/>
+            </learningOutcomes>
+        </learningSpecification>
+        <learningSpecification id="http://data.europa.eu/esco/qdr/learning/spec/0005">
+            <identifier
+                schemeID="testLSIdentifierSchemeID_0005"
+                schemeAgencyID="http://testLSIdentifierSchemeAgencyID_0005.com"
+                schemeAgencyName="testLSIdentifierSchemeAgencyName_0005"
+                issuedDate="2000-07-01T00:00:00"
+                spatialID="http://publications.europa.eu/resource/authority/country/BEL">LS0005ID01</identifier>
+            <title>
+            	<text content-type="text/plain" lang="en">learning specification 0005 'en' title</text>
+            </title>
+            <hasISCED-FCode uri="http://data.europa.eu/esco/isced-f/042"/>
+            <learningOutcomes>
+                <learningOutcome idref="http://data.europa.eu/esco/qdr/learningoutcome/0005"/>
+            </learningOutcomes>
+        </learningSpecification>
+        <learningSpecification id="http://data.europa.eu/esco/qdr/learning/spec/0006">
+            <identifier
+                schemeID="testLSIdentifierSchemeID_0006"
+                schemeAgencyID="http://testLSIdentifierSchemeAgencyID_0006.com"
+                schemeAgencyName="testLSIdentifierSchemeAgencyName_0006"
+                issuedDate="2000-07-01T00:00:00"
+                spatialID="http://publications.europa.eu/resource/authority/country/BEL">LS0006ID01</identifier>
+            <title>
+            	<text content-type="text/plain" lang="en">learning specification 0006 'en' title</text>
+            </title>
+            <hasISCED-FCode uri="http://data.europa.eu/esco/isced-f/042"/>
+            <learningOutcomes>
+                <learningOutcome idref="http://data.europa.eu/esco/qdr/learningoutcome/0006"/>
+            </learningOutcomes>
+        </learningSpecification>
+        <qualification id="http://data.europa.eu/esco/qdr/qualification/spec/0001">            
+            <identifier
+                schemeID="testQIdentifierSchemeID_0001"
+                schemeAgencyID="http://testQIdentifierSchemeAgencyID_0001.com"
+                schemeAgencyName="testQIdentifierSchemeAgencyName_0001"
+                issuedDate="2000-06-01T00:00:00"
+                spatialID="http://publications.europa.eu/resource/authority/country/BEL">Q0001ID01</identifier>
+            <identifier
+                schemeID="testQIdentifier2SchemeID_0001"
+                schemeAgencyID="http://testQIdentifier2SchemeAgencyID_0001.com"
+                schemeAgencyName="testQIdentifier2SchemeAgencyName_0001"
+                issuedDate="2001-06-01T00:00:00"
+                spatialID="http://publications.europa.eu/resource/authority/country/NLD">Q0001ID02</identifier>
+            <type uri="http://data.europa.eu/europass/learningOpportunityType/programModule" />
+            <type uri="http://data.europa.eu/europass/learningOpportunityType/thesis" />
+            <title>
+            	<text content-type="text/plain" lang="en">qualification 0001 'en' title</text>
+            </title>
+            <title>
+            	<text content-type="text/plain" lang="nl">qualification 0001 'nl' title</text>
+            </title>
+            <altLabel>
+            	<text content-type="text/plain" lang="en">qualification 0001 'en' altLabel</text>
+            </altLabel>
+            <altLabel>
+            	<text content-type="text/plain" lang="nl">qualification 0001 'nl' altLabel</text>
+            </altLabel>
+            <definition>
+                <text lang="en" content-type="text/plain">qualification 0001 'en' definition</text>
+                <subject uri="http://data.europa.eu/esco/qualification-topics#ways-to-acquire"></subject>
+                <subject uri="http://data.europa.eu/esco/qualification-topics#assessment"></subject>
+            </definition>
+            <definition>
+                <text lang="nl" content-type="text/html"><![CDATA[<b>qualification 0001 'nl' definition</b>]]></text>
+                <subject uri="http://data.europa.eu/esco/qualification-topics#contact-info"></subject>
+                <subject uri="http://data.europa.eu/esco/qualification-topics#labour-market-and-employment"></subject>
+            </definition>
+            <description>
+                <text lang="en" content-type="text/plain">qualification 0001 'en' description</text>
+                <subject uri="http://data.europa.eu/esco/qualification-topics#awarding-activity"></subject>
+                <subject uri="http://data.europa.eu/esco/qualification-topics#contact-info"></subject>
+            </description>
+            <description>
+                <text lang="nl" content-type="text/html"><![CDATA[<b>qualification 0001 'nl' description</b>]]></text>
+                <subject uri="http://data.europa.eu/esco/qualification-topics#pathways"></subject>
+            </description>
+            <additionalNote>
+                <text lang="en" content-type="text/html"><![CDATA[<b>qualification 0001 'en' additionalNote</b>]]></text>
+                <subject uri="http://data.europa.eu/esco/qualification-topics#learning-outcomes"></subject>
+                <subject uri="http://data.europa.eu/esco/qualification-topics#accreditation-and-quality-assurance"></subject>
+            </additionalNote>
+            <additionalNote>
+                <text lang="nl" content-type="text/plain">qualification 0001 'nl' additionalNote</text>
+                <subject uri="http://data.europa.eu/esco/qualification-topics#labour-market-and-employment"></subject>
+            </additionalNote>
+            <homepage uri="https://example.com/q0001/homepage/1/">
+                <title>
+                	<text content-type="text/plain" lang="en">qualification 0001 homepage 1 'en' title</text>
+                </title>
+                <title>
+                	<text content-type="text/plain" lang="nl">qualification 0001 homepage 1 'nl' title</text>
+                </title>
+                <language uri="http://publications.europa.eu/resource/authority/language/ENG"></language>
+                <language uri="http://publications.europa.eu/resource/authority/language/NLD"></language>
+                <subject uri="http://data.europa.eu/esco/qualification-topics#assessment"></subject>
+                <subject uri="http://data.europa.eu/esco/qualification-topics#awarding-activity"></subject>
+            </homepage>
+            <homepage uri="https://example.com/q0001/homepage/2/" />
+            <supplementaryDoc uri="https://example.com/q0001/supDoc/1/">
+                <title>
+                	<text content-type="text/plain" lang="en">qualification 0001 sup doc 1 'en' title</text>
+                </title>
+                <title>
+                	<text content-type="text/plain" lang="nl">qualification 0001 sup doc 1 'nl' title</text>
+                </title>
+                <language uri="http://publications.europa.eu/resource/authority/language/ENG"></language>
+                <language uri="http://publications.europa.eu/resource/authority/language/NLD"></language>
+                <subject uri="http://data.europa.eu/esco/qualification-topics#history-and-lifecycle"></subject>
+                <subject uri="http://data.europa.eu/esco/qualification-topics#regulations-and-certificates"></subject>
+            </supplementaryDoc>
+            <supplementaryDoc uri="https://example.com/q0001/supDoc/2/">
+                <title>
+                	<text content-type="text/plain" lang="en">qualification 0001 sup doc 2 'en' title</text>
+                </title>
+                <title>
+                	<text content-type="text/plain" lang="nl">qualification 0001 sup doc 2 'nl' title</text>
+                </title>
+                <subject uri="http://data.europa.eu/esco/qualification-topics#history-and-lifecycle"></subject>
+            </supplementaryDoc>
+            <supplementaryDoc uri="https://example.com/q0001/supDoc/3/" />
+            <hasISCED-FCode uri="http://data.europa.eu/esco/isced-f/042"></hasISCED-FCode>
+            <hasISCED-FCode uri="http://data.europa.eu/esco/isced-f/080"></hasISCED-FCode>
+            <hasEducationSubject
+                targetNotation="Q0001HESO01targetNotation"
+                targetFrameworkUrl="http://www.example.com/Q0001HESO01targetFrameworkUrl/"
+                targetFrameworkID="http://www.example.com/semanticFramework/0002"
+                targetFrameworkSpatialID="http://data.europa.eu/esco/nuts/NO062">
+                <targetName>
+                	<text content-type="text/plain" lang="en">qualification 0001 hasEducationSubject 1 targetName in 'en'</text>
+                </targetName>
+                <targetName>
+                	<text content-type="text/plain" lang="nl">qualification 0001 hasEducationSubject 1 targetName in 'nl'</text>
+                </targetName>
+                <targetDescription>
+                    <text lang="en" content-type="text/html"><![CDATA[<b>qualification 0001 hasEducationSubject 1 targetDescription in 'en'</b>]]></text>
+                    <subject uri="http://data.europa.eu/esco/qualification-topics#accreditation-and-quality-assurance"></subject>
+                    <subject uri="http://data.europa.eu/esco/qualification-topics#labour-market-and-employment"></subject>
+                </targetDescription>
+                <targetDescription>
+                    <text lang="nl" content-type="text/plain">qualification 0001 hasEducationSubject 1 targetDescription in 'nl'</text>
+                    <subject uri="http://data.europa.eu/esco/qualification-topics#labour-market-and-employment"></subject>
+                </targetDescription>
+                <targetFrameworkName>
+                    <text lang="en" content-type="text/plain">Q0001HESO01targetFrameworkName</text>
+                </targetFrameworkName>
+            </hasEducationSubject>
+            <hasEducationSubject targetFrameworkSpatialID="http://data.europa.eu/esco/nuts/UKK21" />            
+            <hasEducationSubject />
+            <volumeOfLearning>P8Y2M6DT1H10M0S</volumeOfLearning>
+            <hasECTSCreditPoints schemeID="http://data.europa.eu/europass/educationalCreditPointSystem/ects">360</hasECTSCreditPoints>
+            <hasCreditPoints schemeID="http://data.europa.eu/europass/educationalCreditPointSystem/ects">360</hasCreditPoints>
+            <hasCreditPoints schemeID="http://data.europa.eu/europass/educationalCreditPointSystem/ecvet">240</hasCreditPoints>
+            <hasEducationLevel
+                targetNotation="Q0001HELO01targetNotation"
+                targetFrameworkUrl="http://www.example.com/Q0001HELO01targetFrameworkUrl/"
+                targetFrameworkID="http://www.example.com/semanticFramework/0003"
+                targetFrameworkSpatialID="http://data.europa.eu/esco/nuts/NO062">
+                <targetName>
+                	<text content-type="text/plain" lang="en">qualification 0001 hasEducationLevel 1 targetName in 'en'</text>
+                </targetName>
+                <targetName>
+                	<text content-type="text/plain" lang="nl">qualification 0001 hasEducationLevel 1 targetName in 'nl'</text>
+                </targetName>
+                <targetDescription>
+                    <text lang="en" content-type="text/html"><![CDATA[<b>qualification 0001 hasEducationLevel 1 targetDescription in 'en'</b>]]></text>
+                    <subject uri="http://data.europa.eu/esco/qualification-topics#accreditation-and-quality-assurance" />
+                    <subject uri="http://data.europa.eu/esco/qualification-topics#labour-market-and-employment" />
+                </targetDescription>
+                <targetDescription>
+                    <text lang="nl" content-type="text/plain">qualification 0001 hasEducationLevel 1 targetDescription in 'nl'</text>
+                    <subject uri="http://data.europa.eu/esco/qualification-topics#labour-market-and-employment" />
+                </targetDescription>
+                <targetFrameworkName>
+                    <text lang="en" content-type="text/plain">Q0001HELO01targetFrameworkName</text>
+                </targetFrameworkName>
+            </hasEducationLevel>
+            <hasEducationLevel targetFrameworkSpatialID="http://data.europa.eu/esco/nuts/UKK21" />            
+            <hasEducationLevel />
+            <language uri="http://publications.europa.eu/resource/authority/language/ENG" />
+            <language uri="http://publications.europa.eu/resource/authority/language/NLD" />
+            <mode uri="http://data.europa.eu/europass/modeOfLearningAndAssessment/workbased" />
+            <mode uri="http://data.europa.eu/europass/modeOfLearningAndAssessment/blended" />
+            <learningSettingType uri="http://data.europa.eu/europass/learningSettingType/nonFormal" />
+            <duration>P1Y</duration>
+            <targetGroup uri="http://data.europa.eu/europass/targetGroup/adults" />
+            <targetGroup uri="http://data.europa.eu/europass/targetGroup/culture" />
+            <entryRequirementsNote>
+                <text lang="en" content-type="text/html"><![CDATA[<b>qualification 0001 entryRequirementsNote 1 targetDescription in 'en'</b>]]></text>
+                <subject uri="http://data.europa.eu/esco/qualification-topics#ways-to-acquire"></subject>
+                <subject uri="http://data.europa.eu/esco/qualification-topics#regulations-and-certificates"></subject>
+            </entryRequirementsNote>
+            <entryRequirementsNote>
+                <text lang="nl" content-type="text/plain">qualification 0001 entryRequirementsNote 1 targetDescription in 'nl'</text>
+                <subject uri="http://data.europa.eu/esco/qualification-topics#contact-info"></subject>
+            </entryRequirementsNote>
+            <learningOutcomes>
+                <learningOutcome idref="http://data.europa.eu/esco/qdr/learningoutcome/0002"/>
+                <learningOutcome idref="http://data.europa.eu/esco/qdr/learningoutcome/0003"/>
+            </learningOutcomes>
+            <learningActivitySpecification idref="http://data.europa.eu/esco/qdr/activitySpecification/0002"/>
+            <assessmentSpecification idref="http://data.europa.eu/esco/qdr/assessmentspec/0002"/>
+            <entitlementSpecification idref="http://www.example.com/entitlementSpec/0003"/>
+            <entitlementSpecification idref="http://www.example.com/entitlementSpec/0004"/>
+            <awardingOpportunities>
+                <awardingOpportunity>
+                    <organization idref="http://www.example.com/organization/0003"/>
+                    <organization idref="http://www.example.com/organization/0004"/>
+                    <location uri="http://data.europa.eu/esco/nuts/DE266"></location>
+                    <startedAtTime>2021-02-13T12:51:46</startedAtTime>
+                    <endedAtTime>2020-08-06T12:51:46Z</endedAtTime>
+                </awardingOpportunity>
+                <awardingOpportunity>
+                    <organization idref="http://www.example.com/organization/0002"/>
+                </awardingOpportunity>
+                <awardingOpportunity />
+            </awardingOpportunities>
+            <isPartialQualification>false</isPartialQualification>
+            <eqfLevel uri="http://data.europa.eu/esco/eqf/8" />
+            <nqfLevel
+                targetNotation="Q0001NQF01targetNotation"
+                targetFrameworkID="http://data.europa.eu/esco/qdr/QF/DE"/>
+            <nqfLevel
+                targetNotation="Q0001NQF02targetNotation"
+                targetFrameworkID="http://data.europa.eu/esco/qdr/QF/CZ"/>
+            <qualificationCode
+                targetID="http://www.example.com/Q0001QC01targetID/"
+                targetNotation="Q0001QC01targetNotation"
+                targetFrameworkUrl="http://www.example.com/Q0001QC01targetFrameworkUrl/"
+                targetFrameworkID="http://www.example.com/semanticFramework/0001"
+                targetFrameworkSpatialID="http://data.europa.eu/esco/nuts/TR425">
+                <targetFrameworkName>
+                    <text lang="en" content-type="text/plain">Q0001QC01targetFrameworkName</text>
+                </targetFrameworkName>
+            </qualificationCode>
+            <qualificationCode targetFrameworkSpatialID="http://data.europa.eu/esco/nuts/TRB22"/>
+            <hasPart idref="http://data.europa.eu/esco/qdr/qualification/spec/0002"/>
+            <hasPart idref="http://data.europa.eu/esco/qdr/qualification/spec/0003"/>
+            <specializationOf idref="http://data.europa.eu/esco/qdr/qualification/spec/0004"/>
+        </qualification>
+        <qualification id="http://data.europa.eu/esco/qdr/qualification/spec/0002">
+            <identifier
+                schemeID="testQIdentifierSchemeID_0002"
+                schemeAgencyID="http://testQIdentifierSchemeAgencyID_0002.com"
+                schemeAgencyName="testQIdentifierSchemeAgencyName_0002"
+                issuedDate="2000-06-01T00:00:00"
+                spatialID="http://publications.europa.eu/resource/authority/country/BEL">Q0002ID01</identifier>
+            <title>
+            	<text content-type="text/plain" lang="en">qualification 0002 'en' title</text>
+            </title>
+            <hasISCED-FCode uri="http://data.europa.eu/esco/isced-f/042"/>
+            <learningOutcomes>
+                <learningOutcome idref="http://data.europa.eu/esco/qdr/learningoutcome/0002"/>
+            </learningOutcomes>
+            <eqfLevel uri="http://data.europa.eu/esco/eqf/7" />
+            <nqfLevel
+                targetNotation="Q0001NQF01targetNotation"
+                targetFrameworkID="http://data.europa.eu/esco/qdr/QF/HU"/>
+        </qualification>
+        <qualification id="http://data.europa.eu/esco/qdr/qualification/spec/0003">
+            <identifier
+                schemeID="testQIdentifierSchemeID_0003"
+                schemeAgencyID="http://testQIdentifierSchemeAgencyID_0003.com"
+                schemeAgencyName="testQIdentifierSchemeAgencyName_0003"
+                issuedDate="2000-06-01T00:00:00"
+                spatialID="http://publications.europa.eu/resource/authority/country/BEL">Q0003ID01</identifier>
+            <title>
+            	<text content-type="text/plain" lang="en">qualification 0003 'en' title</text>
+            </title>
+            <hasISCED-FCode uri="http://data.europa.eu/esco/isced-f/042"/>
+            <learningOutcomes>
+                <learningOutcome idref="http://data.europa.eu/esco/qdr/learningoutcome/0003"/>
+            </learningOutcomes>
+            <eqfLevel uri="http://data.europa.eu/esco/eqf/6" />
+            <nqfLevel
+                targetNotation="Q0001NQF01targetNotation"
+                targetFrameworkID="http://data.europa.eu/esco/qdr/QF/HU"/>
+        </qualification>
+        <qualification id="http://data.europa.eu/esco/qdr/qualification/spec/0004">
+            <identifier
+                schemeID="testQIdentifierSchemeID_0004"
+                schemeAgencyID="http://testQIdentifierSchemeAgencyID_0004.com"
+                schemeAgencyName="testQIdentifierSchemeAgencyName_0004"
+                issuedDate="2000-06-01T00:00:00"
+                spatialID="http://publications.europa.eu/resource/authority/country/BEL">Q0004ID01</identifier>
+            <title>
+            	<text content-type="text/plain" lang="en">qualification 0004 'en' title</text>
+            </title>
+            <hasISCED-FCode uri="http://data.europa.eu/esco/isced-f/042"/>
+            <learningOutcomes>
+                <learningOutcome idref="http://data.europa.eu/esco/qdr/learningoutcome/0004"/>
+            </learningOutcomes>
+            <eqfLevel uri="http://data.europa.eu/esco/eqf/5" />
+            <nqfLevel
+                targetNotation="Q0001NQF01targetNotation"
+                targetFrameworkID="http://data.europa.eu/esco/qdr/QF/HU"/>
+        </qualification>
+        <qualification id="http://data.europa.eu/esco/qdr/qualification/spec/0005">
+            <identifier
+                schemeID="testQIdentifierSchemeID_0005"
+                schemeAgencyID="http://testQIdentifierSchemeAgencyID_0005.com"
+                schemeAgencyName="testQIdentifierSchemeAgencyName_0005"
+                issuedDate="2000-06-01T00:00:00"
+                spatialID="http://publications.europa.eu/resource/authority/country/BEL">Q0005ID01</identifier>
+            <title>
+            	<text content-type="text/plain" lang="en">qualification 0005 'en' title</text>
+            </title>
+            <hasISCED-FCode uri="http://data.europa.eu/esco/isced-f/042"/>
+            <learningOutcomes>
+                <learningOutcome idref="http://data.europa.eu/esco/qdr/learningoutcome/0005"/>
+            </learningOutcomes>
+            <eqfLevel uri="http://data.europa.eu/esco/eqf/4" />
+            <nqfLevel
+                targetNotation="Q0001NQF01targetNotation"
+                targetFrameworkID="http://data.europa.eu/esco/qdr/QF/HU"/>
+        </qualification>
+        <qualification id="http://data.europa.eu/esco/qdr/qualification/spec/0006">
+            <identifier
+                schemeID="testQIdentifierSchemeID_0006"
+                schemeAgencyID="http://testQIdentifierSchemeAgencyID_0006.com"
+                schemeAgencyName="testQIdentifierSchemeAgencyName_0006"
+                issuedDate="2000-06-01T00:00:00"
+                spatialID="http://publications.europa.eu/resource/authority/country/BEL">Q0006ID01</identifier>
+            <title>
+            	<text content-type="text/plain" lang="en">qualification 0006 'en' title</text>
+            </title>
+            <hasISCED-FCode uri="http://data.europa.eu/esco/isced-f/042"/>
+            <learningOutcomes>
+                <learningOutcome idref="http://data.europa.eu/esco/qdr/learningoutcome/0006"/>
+            </learningOutcomes>
+            <eqfLevel uri="http://data.europa.eu/esco/eqf/3" />
+            <nqfLevel
+                targetNotation="Q0001NQF01targetNotation"
+                targetFrameworkID="http://data.europa.eu/esco/qdr/QF/HU"/>
+        </qualification>
+    </learningSpecificationReferences>
+    <learningOutcomeReferences>
+        <learningOutcome id="http://data.europa.eu/esco/qdr/learningoutcome/0001">
+            <identifier
+                schemeID="testLOIdentifierSchemeID_0001"
+                schemeAgencyID="http://testLOIdentifierSchemeAgencyID_0001.com"
+                schemeAgencyName="testLOIdentifierSchemeAgencyName_0001"
+                issuedDate="2000-08-01T00:00:00"
+                spatialID="http://publications.europa.eu/resource/authority/country/BEL">LO0001ID01</identifier>
+            <identifier
+                schemeID="testLOIdentifier2SchemeID_0001"
+                schemeAgencyID="http://testLOIdentifier2SchemeAgencyID_0001.com"
+                schemeAgencyName="testLOIdentifier2SchemeAgencyName_0001"
+                issuedDate="2001-08-01T00:00:00"
+                spatialID="http://publications.europa.eu/resource/authority/country/NLD">LO0001ID02</identifier>
+            <prefLabel>
+            	<text content-type="text/plain" lang="en">learning outcome 0001 'en' prefLabel</text>
+            </prefLabel>
+            <prefLabel>
+            	<text content-type="text/plain" lang="nl">learning outcome 0001 'nl' prefLabel</text>
+            </prefLabel>
+            <description>
+                <text lang="en" content-type="text/plain">learning outcome 0001 'en' description</text>
+                <subject uri="http://data.europa.eu/esco/qualification-topics#awarding-activity"></subject>
+                <subject uri="http://data.europa.eu/esco/qualification-topics#contact-info"></subject>
+            </description>
+            <description>
+                <text lang="nl" content-type="text/plain">learning outcome 0001 'nl' description</text>
+                <subject uri="http://data.europa.eu/esco/qualification-topics#pathways"></subject>
+            </description>
+            <learningOutcomeType uri="http://data.europa.eu/esco/skill-type/skill"></learningOutcomeType>
+            <reusabilityLevel uri="http://data.europa.eu/esco/skill-reuse-level/occupation-specific"></reusabilityLevel>
+            <relatedEscoSkill
+                type="http://data.europa.eu/europass/skillAssociationType/narrowerMatch"
+                description="learning outcome 0001 relatedEscoSkill 1 description"
+                targetID="http://data.europa.eu/esco/skill/19a8293b-8e95-4de3-983f-77484079c389"
+            />
+            <relatedEscoSkill
+                type="http://data.europa.eu/europass/skillAssociationType/closeMatch"
+                description="learning outcome 0001 relatedEscoSkill 2 description"
+                targetID="http://data.europa.eu/esco/skill/21d2f96d-35f7-4e3f-9745-c533d2dd6e97"
+            />
+        </learningOutcome>
+        <learningOutcome id="http://data.europa.eu/esco/qdr/learningoutcome/0002">
+            <prefLabel>
+            	<text content-type="text/plain" lang="en">learning outcome 0002 'en' title</text>
+            </prefLabel>
+        </learningOutcome>
+        <learningOutcome id="http://data.europa.eu/esco/qdr/learningoutcome/0003">
+            <prefLabel>
+            	<text content-type="text/plain" lang="en">learning outcome 0003 'en' title</text>
+            </prefLabel>
+        </learningOutcome>
+        <learningOutcome id="http://data.europa.eu/esco/qdr/learningoutcome/0004">
+            <prefLabel>
+            	<text content-type="text/plain" lang="en">learning outcome 0004 'en' title</text>
+            </prefLabel>
+        </learningOutcome>
+        <learningOutcome id="http://data.europa.eu/esco/qdr/learningoutcome/0005">
+            <prefLabel>
+            	<text content-type="text/plain" lang="en">learning outcome 0005 'en' title</text>
+            </prefLabel>
+        </learningOutcome>
+        <learningOutcome id="http://data.europa.eu/esco/qdr/learningoutcome/0006">
+            <prefLabel>
+            	<text content-type="text/plain" lang="en">learning outcome 0006 'en' title</text>
+            </prefLabel>
+        </learningOutcome>
+    </learningOutcomeReferences>
+    <learningActivitySpecificationReferences>
+        <learningActivitySpecification id="http://data.europa.eu/esco/qdr/activitySpecification/0001">
+            <identifier
+                schemeID="testLASIdentifierSchemeID_0001"
+                schemeAgencyID="http://testLASIdentifierSchemeAgencyID_0001.com"
+                schemeAgencyName="testLASIdentifierSchemeAgencyName_0001"
+                issuedDate="2000-09-01T00:00:00"
+                spatialID="http://publications.europa.eu/resource/authority/country/BEL">LAS0001ID01</identifier>
+            <identifier
+                schemeID="testLASIdentifier2SchemeID_0001"
+                schemeAgencyID="http://testLASIdentifier2SchemeAgencyID_0001.com"
+                schemeAgencyName="testLASIdentifier2SchemeAgencyName_0001"
+                issuedDate="2001-09-01T00:00:00"
+                spatialID="http://publications.europa.eu/resource/authority/country/NLD">LAS0001ID02</identifier>
+            <title>
+            	<text content-type="text/plain" lang="en">learning activity specification 0001 'en' title</text>
+            </title>
+            <title>
+            	<text content-type="text/plain" lang="nl">learning activity specification 0001 'nl' title</text>
+            </title>
+            <altLabel>
+            	<text content-type="text/plain" lang="en">learning activity specification 0001 'en' altLabel</text>
+            </altLabel>
+            <altLabel>
+            	<text content-type="text/plain" lang="nl">learning activity specification 0001 'nl' altLabel</text>
+            </altLabel>
+            <description>
+                <text lang="en" content-type="text/plain">learning activity specification 0001 'en' description</text>
+                <subject uri="http://data.europa.eu/esco/qualification-topics#awarding-activity"></subject>
+                <subject uri="http://data.europa.eu/esco/qualification-topics#contact-info"></subject>
+            </description>
+            <description>
+                <text lang="nl" content-type="text/plain">learning activity specification 0001 'nl' description</text>
+                <subject uri="http://data.europa.eu/esco/qualification-topics#pathways"></subject>
+            </description>
+            <additionalNote>
+                <text lang="en" content-type="text/html"><![CDATA[<b>learning activity specification 0001 'en' additionalNote</b>]]></text>
+                <subject uri="http://data.europa.eu/esco/qualification-topics#learning-outcomes"></subject>
+                <subject uri="http://data.europa.eu/esco/qualification-topics#accreditation-and-quality-assurance"></subject>
+            </additionalNote>
+            <additionalNote>
+                <text lang="nl" content-type="text/plain">learning activity specification 0001 'nl' additionalNote</text>
+                <subject uri="http://data.europa.eu/esco/qualification-topics#labour-market-and-employment"></subject>
+            </additionalNote>
+            <homepage uri="https://example.com/las0001/homepage/1/">
+                <title>
+                	<text content-type="text/plain" lang="en">learning activity specification 0001 homepage 1 'en' title</text>
+                </title>
+                <title>
+                	<text content-type="text/plain" lang="nl">learning activity specification 0001 homepage 1 'nl' title</text>
+                </title>
+                <language uri="http://publications.europa.eu/resource/authority/language/ENG"></language>
+                <language uri="http://publications.europa.eu/resource/authority/language/NLD"></language>
+                <subject uri="http://data.europa.eu/esco/qualification-topics#assessment"></subject>
+                <subject uri="http://data.europa.eu/esco/qualification-topics#awarding-activity"></subject>
+            </homepage>
+            <homepage uri="https://example.com/las0001/homepage/2/" />
+            <supplementaryDoc uri="https://example.com/las0001/supDoc/1/">
+                <title>
+                	<text content-type="text/plain" lang="en">learning activity specification 0001 sup doc 1 'en' title</text>
+                </title>
+                <title>
+                	<text content-type="text/plain" lang="nl">learning activity specification 0001 sup doc 1 'nl' title</text>
+                </title>
+                <language uri="http://publications.europa.eu/resource/authority/language/ENG"></language>
+                <language uri="http://publications.europa.eu/resource/authority/language/NLD"></language>
+                <subject uri="http://data.europa.eu/esco/qualification-topics#history-and-lifecycle"></subject>
+                <subject uri="http://data.europa.eu/esco/qualification-topics#regulations-and-certificates"></subject>
+            </supplementaryDoc>
+            <supplementaryDoc uri="https://example.com/las0001/supDoc/2/">
+                <title>
+                	<text content-type="text/plain" lang="en">learning activity specification 0001 sup doc 2 'en' title</text>
+                </title>
+                <title>
+                	<text content-type="text/plain" lang="nl">learning activity specification 0001 sup doc 2 'nl' title</text>
+                </title>
+                <subject uri="http://data.europa.eu/esco/qualification-topics#history-and-lifecycle"></subject>
+            </supplementaryDoc>
+            <supplementaryDoc uri="https://example.com/las0001/supDoc/3/" />
+            <type uri="http://data.europa.eu/europass/learningActivityType/apprenticeship"></type>
+            <type uri="http://data.europa.eu/europass/learningActivityType/volunteering"></type>
+            <workload>P2Y</workload>
+            <language uri="http://publications.europa.eu/resource/authority/language/ENG"></language>
+            <language uri="http://publications.europa.eu/resource/authority/language/NLD"></language>
+            <mode uri="http://data.europa.eu/europass/modeOfLearningAndAssessment/blended"></mode>
+            <mode uri="http://data.europa.eu/europass/modeOfLearningAndAssessment/online"></mode>
+            <teaches idref="http://data.europa.eu/esco/qdr/learning/spec/0001"/>
+            <teaches idref="http://data.europa.eu/esco/qdr/qualification/spec/0001"/>
+            <hasPart idref="http://data.europa.eu/esco/qdr/activitySpecification/0004"/>
+            <hasPart idref="http://data.europa.eu/esco/qdr/activitySpecification/0005"/>
+            <specializationOf idref="http://data.europa.eu/esco/qdr/activitySpecification/0002"/>
+            <specializationOf idref="http://data.europa.eu/esco/qdr/activitySpecification/0003"/>
+        </learningActivitySpecification>
+        <learningActivitySpecification id="http://data.europa.eu/esco/qdr/activitySpecification/0002" />
+        <learningActivitySpecification id="http://data.europa.eu/esco/qdr/activitySpecification/0003" />
+        <learningActivitySpecification id="http://data.europa.eu/esco/qdr/activitySpecification/0004" />
+        <learningActivitySpecification id="http://data.europa.eu/esco/qdr/activitySpecification/0005" />
+        <learningActivitySpecification id="http://data.europa.eu/esco/qdr/activitySpecification/0006" />
+    </learningActivitySpecificationReferences>
+    <assessmentSpecificationReferences>
+        <assessmentSpecification id="http://data.europa.eu/esco/qdr/assessmentspec/0001">
+            <identifier
+                schemeID="testASIdentifierSchemeID_0001"
+                schemeAgencyID="http://testASIdentifierSchemeAgencyID_0001.com"
+                schemeAgencyName="testASIdentifierSchemeAgencyName_0001"
+                issuedDate="2000-10-01T00:00:00"
+                spatialID="http://publications.europa.eu/resource/authority/country/BEL">AS0001ID01</identifier>
+            <identifier
+                schemeID="testASIdentifier2SchemeID_0001"
+                schemeAgencyID="http://testASIdentifier2SchemeAgencyID_0001.com"
+                schemeAgencyName="testASIdentifier2SchemeAgencyName_0001"
+                issuedDate="2001-10-01T00:00:00"
+                spatialID="http://publications.europa.eu/resource/authority/country/NLD">AS0001ID02</identifier>
+            <title>
+            	<text content-type="text/plain" lang="en">assessment specification 0001 'en' title</text>
+            </title>
+            <title>
+            	<text content-type="text/plain" lang="nl">assessment specification 0001 'nl' title</text>
+            </title>
+            <altLabel>
+            	<text content-type="text/plain" lang="en">assessment specification 0001 'en' altLabel</text>
+            </altLabel>
+            <altLabel>
+            	<text content-type="text/plain" lang="nl">assessment specification 0001 'nl' altLabel</text>
+            </altLabel>
+            <description>
+                <text lang="en" content-type="text/plain">assessment specification 0001 'en' description</text>
+                <subject uri="http://data.europa.eu/esco/qualification-topics#awarding-activity"></subject>
+                <subject uri="http://data.europa.eu/esco/qualification-topics#contact-info"></subject>
+            </description>
+            <description>
+                <text lang="nl" content-type="text/plain">assessment specification 0001 'nl' description</text>
+                <subject uri="http://data.europa.eu/esco/qualification-topics#pathways"></subject>
+            </description>
+            <additionalNote>
+                <text lang="en" content-type="text/html"><![CDATA[<b>assessment specification 0001 'en' additionalNote</b>]]></text>
+                <subject uri="http://data.europa.eu/esco/qualification-topics#learning-outcomes"></subject>
+                <subject uri="http://data.europa.eu/esco/qualification-topics#accreditation-and-quality-assurance"></subject>
+            </additionalNote>
+            <additionalNote>
+                <text lang="nl" content-type="text/plain">assessment specification 0001 'nl' additionalNote</text>
+                <subject uri="http://data.europa.eu/esco/qualification-topics#labour-market-and-employment"></subject>
+            </additionalNote>
+            <homepage uri="https://example.com/as0001/homepage/1/">
+                <title>
+                	<text content-type="text/plain" lang="en">assessment specification 0001 homepage 1 'en' title</text>
+                </title>
+                <title>
+                	<text content-type="text/plain" lang="nl">assessment specification 0001 homepage 1 'nl' title</text>
+                </title>
+                <language uri="http://publications.europa.eu/resource/authority/language/ENG"></language>
+                <language uri="http://publications.europa.eu/resource/authority/language/NLD"></language>
+                <subject uri="http://data.europa.eu/esco/qualification-topics#assessment"></subject>
+                <subject uri="http://data.europa.eu/esco/qualification-topics#awarding-activity"></subject>
+            </homepage>
+            <homepage uri="https://example.com/as0001/homepage/2/" />
+            <supplementaryDoc uri="https://example.com/as0001/supDoc/1/">
+                <title>
+                	<text content-type="text/plain" lang="en">assessment specification 0001 sup doc 1 'en' title</text>
+                </title>
+                <title>
+                	<text content-type="text/plain" lang="nl">assessment specification 0001 sup doc 1 'nl' title</text>
+                </title>
+                <language uri="http://publications.europa.eu/resource/authority/language/ENG"></language>
+                <language uri="http://publications.europa.eu/resource/authority/language/NLD"></language>
+                <subject uri="http://data.europa.eu/esco/qualification-topics#history-and-lifecycle"></subject>
+                <subject uri="http://data.europa.eu/esco/qualification-topics#regulations-and-certificates"></subject>
+            </supplementaryDoc>
+            <supplementaryDoc uri="https://example.com/as0001/supDoc/2/">
+                <title>
+                	<text content-type="text/plain" lang="en">assessment specification 0001 sup doc 2 'en' title</text>
+                </title>
+                <title>
+                	<text content-type="text/plain" lang="nl">assessment specification 0001 sup doc 2 'nl' title</text>
+                </title>
+                <subject uri="http://data.europa.eu/esco/qualification-topics#history-and-lifecycle"></subject>
+            </supplementaryDoc>
+            <supplementaryDoc uri="https://example.com/as0001/supDoc/3/" />
+            <type uri="http://data.europa.eu/europass/assessmentType/writtenExamen"></type>
+            <type uri="http://data.europa.eu/europass/assessmentType/markedAssignment"></type>
+            <language uri="http://publications.europa.eu/resource/authority/language/ENG"></language>
+            <language uri="http://publications.europa.eu/resource/authority/language/NLD"></language>
+            <mode uri="http://data.europa.eu/europass/modeOfLearningAndAssessment/workbased"></mode>
+            <mode uri="http://data.europa.eu/europass/modeOfLearningAndAssessment/online"></mode>
+            <gradingScheme idref="http://www.example.com/scoringScheme/0001"/>
+            <gradingScheme idref="http://www.example.com/scoringScheme/0002"/>
+            <proves idref="http://data.europa.eu/esco/qdr/learning/spec/0001"/>
+            <proves idref="http://data.europa.eu/esco/qdr/qualification/spec/0001"/>
+            <hasPart idref="http://data.europa.eu/esco/qdr/assessmentspec/0004"/>
+            <hasPart idref="http://data.europa.eu/esco/qdr/assessmentspec/0005"/>
+            <specializationOf idref="http://data.europa.eu/esco/qdr/assessmentspec/0002"/>
+            <specializationOf idref="http://data.europa.eu/esco/qdr/assessmentspec/0003"/>
+        </assessmentSpecification>
+        <assessmentSpecification id="http://data.europa.eu/esco/qdr/assessmentspec/0002" />
+        <assessmentSpecification id="http://data.europa.eu/esco/qdr/assessmentspec/0003" />
+        <assessmentSpecification id="http://data.europa.eu/esco/qdr/assessmentspec/0004" />
+        <assessmentSpecification id="http://data.europa.eu/esco/qdr/assessmentspec/0005" />
+        <assessmentSpecification id="http://data.europa.eu/esco/qdr/assessmentspec/0006" />
+    </assessmentSpecificationReferences>
+    <entitlementSpecificationReferences>
+        <entitlementSpecification id="http://www.example.com/entitlementSpec/0001">
+            <identifier
+                schemeID="testESIdentifierSchemeID_0001"
+                schemeAgencyID="http://testESIdentifierSchemeAgencyID_0001.com"
+                schemeAgencyName="testESIdentifierSchemeAgencyName_0001"
+                issuedDate="2000-11-01T00:00:00"
+                spatialID="http://publications.europa.eu/resource/authority/country/BEL">ES0001ID01</identifier>
+            <identifier
+                schemeID="testESIdentifier2SchemeID_0001"
+                schemeAgencyID="http://testESIdentifier2SchemeAgencyID_0001.com"
+                schemeAgencyName="testESIdentifier2SchemeAgencyName_0001"
+                issuedDate="2001-11-01T00:00:00"
+                spatialID="http://publications.europa.eu/resource/authority/country/NLD">ES0001ID02</identifier>
+            <title>
+            	<text content-type="text/plain" lang="en">entitlement specification 0001 'en' title</text>
+            </title>
+            <title>
+            	<text content-type="text/plain" lang="nl">entitlement specification 0001 'nl' title</text>
+            </title>
+            <altLabel>
+            	<text content-type="text/plain" lang="en">entitlement specification 0001 'en' altLabel</text>
+            </altLabel>
+            <altLabel>
+            	<text content-type="text/plain" lang="nl">entitlement specification 0001 'nl' altLabel</text>
+            </altLabel>
+            <description>
+                <text lang="en" content-type="text/plain">entitlement specification 0001 'en' description</text>
+                <subject uri="http://data.europa.eu/esco/qualification-topics#awarding-activity"></subject>
+                <subject uri="http://data.europa.eu/esco/qualification-topics#contact-info"></subject>
+            </description>
+            <description>
+                <text lang="nl" content-type="text/plain">entitlement specification 0001 'nl' description</text>
+                <subject uri="http://data.europa.eu/esco/qualification-topics#pathways"></subject>
+            </description>
+            <additionalNote>
+                <text lang="en" content-type="text/html"><![CDATA[<b>entitlement specification 0001 'en' additionalNote</b>]]></text>
+                <subject uri="http://data.europa.eu/esco/qualification-topics#learning-outcomes"></subject>
+                <subject uri="http://data.europa.eu/esco/qualification-topics#accreditation-and-quality-assurance"></subject>
+            </additionalNote>
+            <additionalNote>
+                <text lang="nl" content-type="text/plain">entitlement specification 0001 'nl' additionalNote</text>
+                <subject uri="http://data.europa.eu/esco/qualification-topics#labour-market-and-employment"></subject>
+            </additionalNote>
+            <homepage uri="https://example.com/es0001/homepage/1/">
+                <title>
+                	<text content-type="text/plain" lang="en">entitlement specification 0001 homepage 1 'en' title</text>
+                </title>
+                <title>
+                	<text content-type="text/plain" lang="nl">entitlement specification 0001 homepage 1 'nl' title</text>
+                </title>
+                <language uri="http://publications.europa.eu/resource/authority/language/ENG"></language>
+                <language uri="http://publications.europa.eu/resource/authority/language/NLD"></language>
+                <subject uri="http://data.europa.eu/esco/qualification-topics#assessment"></subject>
+                <subject uri="http://data.europa.eu/esco/qualification-topics#awarding-activity"></subject>
+            </homepage>
+            <homepage uri="https://example.com/es0001/homepage/2/" />
+            <supplementaryDoc uri="https://example.com/es0001/supDoc/1/">
+                <title>
+                	<text content-type="text/plain" lang="en">entitlement specification 0001 sup doc 1 'en' title</text>
+                </title>
+                <title>
+                	<text content-type="text/plain" lang="nl">entitlement specification 0001 sup doc 1 'nl' title</text>
+                </title>
+                <language uri="http://publications.europa.eu/resource/authority/language/ENG"></language>
+                <language uri="http://publications.europa.eu/resource/authority/language/NLD"></language>
+                <subject uri="http://data.europa.eu/esco/qualification-topics#history-and-lifecycle"></subject>
+                <subject uri="http://data.europa.eu/esco/qualification-topics#regulations-and-certificates"></subject>
+            </supplementaryDoc>
+            <supplementaryDoc uri="https://example.com/es0001/supDoc/2/">
+                <title>
+                	<text content-type="text/plain" lang="en">entitlement specification 0001 sup doc 2 'en' title</text>
+                </title>
+                <title>
+                	<text content-type="text/plain" lang="nl">entitlement specification 0001 sup doc 2 'nl' title</text>
+                </title>
+                <subject uri="http://data.europa.eu/esco/qualification-topics#history-and-lifecycle"></subject>
+            </supplementaryDoc>
+            <supplementaryDoc uri="https://example.com/es0001/supDoc/3/" />
+            <type uri="http://data.europa.eu/europass/entitlementType/learningOpportunity"></type>
+            <status uri="http://data.europa.eu/europass/entitlementStatus/actual"></status>
+            <limitOrganization idref="http://www.example.com/organization/0001"/>
+            <limitOrganization idref="http://www.example.com/organization/0002"/>
+            <limitJurisdiction uri="http://publications.europa.eu/resource/authority/atu/BEL" />
+            <limitJurisdiction uri="http://publications.europa.eu/resource/authority/atu/NLD" />
+            <limitOccupation
+                description="entitlement specification 0001 limitOccupation 1 description"
+                targetID="http://data.europa.eu/esco/occupation/6c3fd65e-2d24-47d8-bc22-9e93512bdcc2"
+            />
+            <limitOccupation
+                description="entitlement specification 0001 limitOccupation 2 description"
+                targetID="http://data.europa.eu/esco/isco/C11"
+            />
+            <limitNationalOccupation
+                description="entitlement specification 0001 limitNationalOccupation 1 description"
+                targetNotation="ES0001LNO01targetNotation"
+                targetFrameworkUrl="http://www.example.com/ES0001LNO01targetFrameworkUrl/"
+                targetFrameworkID="http://www.example.com/semanticFramework/0001"
+                targetFrameworkSpatialID="http://data.europa.eu/esco/nuts/DE">
+                <targetName>
+                	<text content-type="text/plain" lang="en">entitlement specification 0001 limitNationalOccupation 1 targetName in 'en'</text>
+                </targetName>
+                <targetName>
+                	<text content-type="text/plain" lang="nl">entitlement specification 0001 limitNationalOccupation 1 targetName in 'nl'</text>
+                </targetName>
+                <targetDescription>
+                    <text lang="en" content-type="text/html"><![CDATA[<b>entitlement specification 0001 limitNationalOccupation 1 targetDescription in 'en'</b>]]></text>
+                    <subject uri="http://data.europa.eu/esco/qualification-topics#accreditation-and-quality-assurance"></subject>
+                    <subject uri="http://data.europa.eu/esco/qualification-topics#labour-market-and-employment"></subject>
+                </targetDescription>
+                <targetDescription>
+                    <text lang="nl" content-type="text/plain">entitlement specification 0001 limitNationalOccupation 1 targetDescription in 'nl'</text>
+                    <subject uri="http://data.europa.eu/esco/qualification-topics#labour-market-and-employment"></subject>
+                </targetDescription>
+                <targetFrameworkName>
+                    <text lang="en" content-type="text/plain">ES0001LNO01targetFrameworkName</text>
+                </targetFrameworkName>
+            </limitNationalOccupation>
+            <limitNationalOccupation
+                description="entitlement specification 0001 limitNationalOccupation 2 description"
+                targetFrameworkSpatialID="http://data.europa.eu/esco/nuts/DE"
+            />
+            <limitNationalOccupation />
+            <mayResultFrom idref="http://data.europa.eu/esco/qdr/learning/spec/0001"/>
+            <mayResultFrom idref="http://data.europa.eu/esco/qdr/qualification/spec/0001"/>
+            <hasPart idref="http://www.example.com/entitlementSpec/0004"/>
+            <hasPart idref="http://www.example.com/entitlementSpec/0005"/>
+            <specializationOf idref="http://www.example.com/entitlementSpec/0002"/>
+            <specializationOf idref="http://www.example.com/entitlementSpec/0003"/>
+        </entitlementSpecification>
+        <entitlementSpecification id="http://www.example.com/entitlementSpec/0002">
+            <type uri="http://data.europa.eu/europass/entitlementType/membership"></type>
+            <status uri="http://data.europa.eu/europass/entitlementStatus/actual"></status>
+        </entitlementSpecification>
+        <entitlementSpecification id="http://www.example.com/entitlementSpec/0003">
+            <type uri="http://data.europa.eu/europass/entitlementType/occupation"></type>
+            <status uri="http://data.europa.eu/europass/entitlementStatus/prospective"></status>
+        </entitlementSpecification>
+        <entitlementSpecification id="http://www.example.com/entitlementSpec/0004">
+            <type uri="http://data.europa.eu/europass/entitlementType/occupation"></type>
+            <status uri="http://data.europa.eu/europass/entitlementStatus/prospective"></status>
+        </entitlementSpecification>
+        <entitlementSpecification id="http://www.example.com/entitlementSpec/0005">
+            <type uri="http://data.europa.eu/europass/entitlementType/occupation"></type>
+            <status uri="http://data.europa.eu/europass/entitlementStatus/prospective"></status>
+        </entitlementSpecification>
+        <entitlementSpecification id="http://www.example.com/entitlementSpec/0006">
+            <type uri="http://data.europa.eu/europass/entitlementType/occupation"></type>
+            <status uri="http://data.europa.eu/europass/entitlementStatus/prospective"></status>
+        </entitlementSpecification>
+    </entitlementSpecificationReferences>
+    <agentReferences>
+        <organization id="http://www.example.com/organization/0001">
+            <registration
+                schemeID="testOrgRegSchemeID_0001"
+                schemeAgencyID="http://testOrgRegSchemeAgencyID_0001.com"
+                schemeAgencyName="testOrgRegSchemeAgencyName_0001"
+                issuedDate="2001-01-01T00:00:00"
+                spatialID="http://publications.europa.eu/resource/authority/country/NLD">123456789</registration>
+            <vatIdentifier
+                schemeID="testOrgVatSchemeID_0001"
+                schemeAgencyID="http://testOrgVatSchemeAgencyID_0001.com"
+                schemeAgencyName="testOrgVatSchemeAgencyName_0001"
+                issuedDate="2000-01-02T00:00:00"
+                spatialID="http://publications.europa.eu/resource/authority/country/NLD">8139.51.008.NL.01</vatIdentifier>
+            <vatIdentifier
+                schemeID="testOrgVat2SchemeID_0001"
+                schemeAgencyID="http://testOrgVat2SchemeAgencyID_0001.com"
+                schemeAgencyName="testOrgVat2SchemeAgencyName_0001"
+                issuedDate="2001-01-02T00:00:00"
+                spatialID="http://publications.europa.eu/resource/authority/country/BEL">8139.51.008.B.01</vatIdentifier>
+            <taxIdentifier
+                schemeID="testOrgTaxSchemeID_0001"
+                schemeAgencyID="http://testOrgTaxSchemeAgencyID_0001.com"
+                schemeAgencyName="testOrgTaxSchemeAgencyName_0001"
+                issuedDate="2000-01-03T00:00:00"
+                spatialID="http://publications.europa.eu/resource/authority/country/NLD">8139.51.008.NL.02</taxIdentifier>
+            <taxIdentifier
+                schemeID="testOrgTax2SchemeID_0001"
+                schemeAgencyID="http://testOrgTax2SchemeAgencyID_0001.com"
+                schemeAgencyName="testOrgTax2SchemeAgencyName_0001"
+                issuedDate="2001-01-03T00:00:00"
+                spatialID="http://publications.europa.eu/resource/authority/country/BEL">8139.51.008.B.02</taxIdentifier>
+            <identifier
+                schemeID="testOrgIdentifierSchemeID_0001"
+                schemeAgencyID="http://testOrgIdentifierSchemeAgencyID_0001.com"
+                schemeAgencyName="testOrgIdentifierSchemeAgencyName_0001"
+                issuedDate="2000-01-04T00:00:00"
+                spatialID="http://publications.europa.eu/resource/authority/country/BEL">ORG01</identifier>
+            <identifier
+                schemeID="testOrgIdentifier2SchemeID_0001"
+                schemeAgencyID="http://testOrgIdentifier2SchemeAgencyID_0001.com"
+                schemeAgencyName="testOrgIdentifier2SchemeAgencyName_0001"
+                issuedDate="2001-01-04T00:00:00"
+                spatialID="http://publications.europa.eu/resource/authority/country/NLD">ORG02</identifier>
+            <type uri="http://data.europa.eu/esco/agent-type#academic-institution"></type>
+            <prefLabel>
+            	<text content-type="text/plain" lang="en">Test en prefLabel</text>
+            </prefLabel>
+            <prefLabel>
+            	<text content-type="text/plain" lang="nl">Test nl prefLabel, should be converted to altLabel</text>
+            </prefLabel>
+            <altLabel>
+            	<text content-type="text/plain" lang="en">Test en altLabel</text>
+            </altLabel>
+            <altLabel>
+            	<text content-type="text/plain" lang="nl">Test nl altLabel</text>
+            </altLabel>
+            <homepage uri="https://www.nvao.net/en/about-us">
+                <title>
+                	<text content-type="text/plain" lang="en">test en about-us title</text>
+                </title>
+                <title>
+                	<text content-type="text/plain" lang="hu">test hu about-us title</text>
+                </title>
+                <language uri="http://publications.europa.eu/resource/authority/language/ENG" />
+                <language uri="http://publications.europa.eu/resource/authority/language/HUN" />
+                <subject uri="http://data.europa.eu/esco/qualification-topics#accreditation-and-quality-assurance"></subject>
+                <subject uri="http://data.europa.eu/esco/qualification-topics#history-and-lifecycle"/>
+            </homepage>
+            <additionalNote>
+                <text lang="en" content-type="text/html">Test additional html en text 1</text>
+                <subject uri="http://data.europa.eu/esco/qualification-topics#accreditation-and-quality-assurance"></subject>
+                <subject uri="http://data.europa.eu/esco/qualification-topics#entry-requirements"></subject>
+            </additionalNote>
+            <additionalNote>
+                <text lang="hu" content-type="text/plain">Test additional plain text hu text 2</text>
+                <subject uri="http://data.europa.eu/esco/qualification-topics#regulations-and-certificates"></subject>
+                <subject uri="http://data.europa.eu/esco/qualification-topics#ways-to-acquire"></subject>
+            </additionalNote>
+            <hasLocation>
+                <identifier
+                    schemeID="testOrgLocationIdentifierSchemeID_0001"
+                    schemeAgencyID="http://testOrgLocationIdentifierSchemeAgencyID_0001.com"
+                    schemeAgencyName="testOrgLocationIdentifierSchemeAgencyName_0001"
+                    issuedDate="2000-01-05T00:00:00"
+                    spatialID="http://publications.europa.eu/resource/authority/country/BEL">ORGLocation01</identifier>
+                <identifier
+                    schemeID="testOrgLocationIdentifier2SchemeID_0001"
+                    schemeAgencyID="http://testOrgLocationIdentifier2SchemeAgencyID_0001.com"
+                    schemeAgencyName="testOrgLocationIdentifier2SchemeAgencyName_0001"
+                    issuedDate="2001-01-05T00:00:00"
+                    spatialID="http://publications.europa.eu/resource/authority/country/NLD">ORGLocation02</identifier>
+                <name>
+                	<text content-type="text/plain" lang="en">Test location 'en' name</text>
+                </name>
+                <name>
+                	<text content-type="text/plain" lang="nl">Test location 'nl' name</text>
+                </name>
+                <description>
+                    <text lang="en" content-type="text/html"><![CDATA[<b>Test location description in 'en'</b>]]></text>
+                    <subject uri="http://data.europa.eu/esco/qualification-topics#contact-info"></subject>
+                </description>
+                <description>
+                    <text lang="nl" content-type="text/plain">Test location description in 'nl'</text>
+                    <subject uri="http://data.europa.eu/esco/qualification-topics#contact-info"></subject>
+                </description>
+                <hasAddress>
+                    <identifier
+                        schemeID="testOrgLocationAddrIdentifierSchemeID_0001"
+                        schemeAgencyID="http://testOrgLocationAddrIdentifierSchemeAgencyID_0001.com"
+                        schemeAgencyName="testOrgLocationAddrIdentifierSchemeAgencyName_0001"
+                        issuedDate="2000-01-06T00:00:00"
+                        spatialID="http://publications.europa.eu/resource/authority/country/BEL">ORGLocationAddr01</identifier>
+                    <identifier
+                        schemeID="testOrgLocationAddrIdentifier2SchemeID_0001"
+                        schemeAgencyID="http://testOrgLocationAddrIdentifier2SchemeAgencyID_0001.com"
+                        schemeAgencyName="testOrgLocationAddrIdentifier2SchemeAgencyName_0001"
+                        issuedDate="2001-01-06T00:00:00"
+                        spatialID="http://publications.europa.eu/resource/authority/country/NLD">ORGLocationAddr02</identifier>
+                    <fullAddress>
+                        <text lang="en" content-type="text/plain">test full address in 'en'</text>
+                    </fullAddress>
+                    <fullAddress>
+                        <text lang="nl" content-type="text/html"><![CDATA[<b>test full address in 'nl'</b>]]></text>
+                    </fullAddress>
+                    <country uri="http://publications.europa.eu/resource/authority/country/BEL"/>
+                </hasAddress>
+                <hasAddress>
+                    <identifier
+                        schemeID="testOrgLocationAddrIdentifierSchemeID_0001"
+                        schemeAgencyID="http://testOrgLocationAddrIdentifierSchemeAgencyID_0001.com"
+                        schemeAgencyName="testOrgLocationAddrIdentifierSchemeAgencyName_0001"
+                        issuedDate="2000-01-06T00:00:00"
+                        spatialID="http://publications.europa.eu/resource/authority/country/BEL">ORGLocationAddr03</identifier>
+                    <identifier
+                        schemeID="testOrgLocationAddrIdentifier2SchemeID_0001"
+                        schemeAgencyID="http://testOrgLocationAddrIdentifier2SchemeAgencyID_0001.com"
+                        schemeAgencyName="testOrgLocationAddrIdentifier2SchemeAgencyName_0001"
+                        issuedDate="2001-01-06T00:00:00"
+                        spatialID="http://publications.europa.eu/resource/authority/country/NLD">ORGLocationAddr04</identifier>
+                    <fullAddress>
+                        <text lang="en" content-type="text/plain">test full address 2 in 'en'</text>
+                    </fullAddress>
+                    <fullAddress>
+                        <text lang="nl" content-type="text/html"><![CDATA[<b>test full address 2 in 'nl'</b>]]></text>
+                    </fullAddress>
+                    <country uri="http://publications.europa.eu/resource/authority/country/NLD"/>
+                </hasAddress>
+                <spatialCode uri="http://publications.europa.eu/resource/authority/country/BEL"></spatialCode>
+                <spatialCode uri="http://publications.europa.eu/resource/authority/country/NLD"></spatialCode>
+            </hasLocation>
+            <contactPoint>
+                <note>
+                    <text lang="en" content-type="text/plain">test contact point note in 'en'</text>
+                    <subject uri="http://data.europa.eu/esco/qualification-topics#ways-to-acquire"></subject>
+                </note>
+                <note>
+                    <text lang="nl" content-type="text/html"><![CDATA[<b>test contact point note in 'nl'</b>]]></text>
+                    <subject uri="http://data.europa.eu/esco/qualification-topics#entry-requirements"></subject>
+                    <subject uri="http://data.europa.eu/esco/qualification-topics#contact-info"></subject>
+                </note>
+                <description>
+                    <text lang="en" content-type="text/plain">test contact point description in 'en'</text>
+                    <subject uri="http://data.europa.eu/esco/qualification-topics#history-and-lifecycle"></subject>
+                </description>
+                <description>
+                    <text lang="nl" content-type="text/html"><![CDATA[<b>test contact point description in 'nl'</b>]]></text>
+                    <subject uri="http://data.europa.eu/esco/qualification-topics#regulations-and-certificates"></subject>
+                </description>
+                <address>
+                    <identifier
+                        schemeID="testOrgContactAddrIdentifierSchemeID_0001"
+                        schemeAgencyID="http://testOrgContactAddrIdentifierSchemeAgencyID_0001.com"
+                        schemeAgencyName="testOrgContactAddrIdentifierSchemeAgencyName_0001"
+                        issuedDate="2000-01-07T00:00:00"
+                        spatialID="http://publications.europa.eu/resource/authority/country/BEL">ORGContactAddr01</identifier>
+                    <identifier
+                        schemeID="testOrgContactAddrIdentifier2SchemeID_0001"
+                        schemeAgencyID="http://testOrgContactAddrIdentifier2SchemeAgencyID_0001.com"
+                        schemeAgencyName="testOrgContactAddrIdentifier2SchemeAgencyName_0001"
+                        issuedDate="2001-01-07T00:00:00"
+                        spatialID="http://publications.europa.eu/resource/authority/country/NLD">ORGContactAddr01</identifier>
+                    <fullAddress>
+                        <text lang="en" content-type="text/plain">test full contact address in 'en'</text>
+                    </fullAddress>
+                    <fullAddress>
+                        <text lang="nl" content-type="text/html"><![CDATA[<b>test full contact address in 'nl'</b>]]></text>
+                    </fullAddress>
+                    <country uri="http://publications.europa.eu/resource/authority/country/BEL"/>
+                </address>
+                <phone>
+                    <phoneNumber>+32123456789</phoneNumber>
+                </phone>
+                <phone>
+                    <countryDialing>+32</countryDialing>
+                    <areaDialing>12</areaDialing>
+                    <dialNumber>3456789</dialNumber>
+                </phone>
+                <mailBox uri="mailto:testmail@mailer.com"/>
+                <mailBox uri="mailto:testmail2@mailer.com"/>
+                <webresource uri="http://www.example.com/1/"/>
+                <webresource uri="http://www.example.com/2/"/>
+                <webresource uri="http://www.example.com/3/"/>
+                <wallet uri="mailto:test1@mastercard.com"/>
+                <wallet uri="mailto:test2@mastercard.com"/>
+            </contactPoint>
+            <hasUnit idref="http://www.example.com/organization/0003"/>
+            <hasUnit idref="http://www.example.com/organization/0004"/>
+            <unitOf idref="http://www.example.com/organization/0002"/>
+            <logo id="http://ifMaJtMo/">
+                <contentType uri="http://data.europa.eu/europass/mediaType/image/gif"></contentType>
+                <contentEncoding uri="http://data.europa.eu/europass/mediaContentEncoding/base64"></contentEncoding>
+                <contentSize>594690372</contentSize>
+                <contentUrl>http://qGQBZGuD/abc</contentUrl>
+                <content>7386837370856970908890908972698685708685696668816980738177677167</content>
+            </logo>
+            <lastModificationDate>2020-01-13T12:55:00</lastModificationDate>
+        </organization>
+        <organization id="http://www.example.com/organization/0002">
+            <registration 
+                schemeAgencyName="Kruispuntbank van Ondernemingen" 
+                issuedDate="2000-10-01T00:00:00" 
+                spatialID="http://publications.europa.eu/resource/authority/country/BEL">0419.052.0002</registration>
+            <vatIdentifier 
+                schemeAgencyName="Kruispuntbank van Ondernemingen" 
+                issuedDate="1992-02-25T00:00:00" 
+                spatialID="http://publications.europa.eu/resource/authority/country/BEL">BE0419.052.0002</vatIdentifier>
+            <taxIdentifier
+                schemeAgencyName="Kruispuntbank van Ondernemingen"
+                issuedDate="1992-02-25T00:00:00"
+                spatialID="http://publications.europa.eu/resource/authority/country/BEL">BE0419.053.0002</taxIdentifier>
+            <identifier>ORG01</identifier>
+            <prefLabel>
+            	<text content-type="text/plain" lang="en">KU Leuven</text>
+            </prefLabel>
+            <prefLabel>
+            	<text content-type="text/plain" lang="nl">KU Leuven</text>
+            </prefLabel>
+            <altLabel>
+            	<text content-type="text/plain" lang="en">Catholic University Leuven</text>
+            </altLabel>
+            <altLabel>
+            	<text content-type="text/plain" lang="nl">Katholieke Universiteit Leuven</text>
+            </altLabel>
+            <hasLocation>
+                <spatialCode uri="http://publications.europa.eu/resource/authority/country/BEL"/>
+            </hasLocation>
+            <lastModificationDate>2019-10-22T09:26:00</lastModificationDate>
+        </organization>
+        <organization id="http://www.example.com/organization/0003">
+            <registration spatialID="http://publications.europa.eu/resource/authority/country/BEL">0419.052.0003</registration>
+            <prefLabel>
+            	<text content-type="text/plain" lang="en">Test en prefLabel for ORG 0003</text>
+            </prefLabel>
+            <prefLabel>
+            	<text content-type="text/plain" lang="nl">Test nl prefLabel for ORG 0003, should be converted to altLabel</text>
+            </prefLabel>
+            <altLabel>
+            	<text content-type="text/plain" lang="en">Test en altLabel for ORG 0003</text>
+            </altLabel>
+            <altLabel>
+            	<text content-type="text/plain" lang="nl">Test nl altLabel for ORG 0003</text>
+            </altLabel>
+            <hasLocation>
+                <spatialCode uri="http://publications.europa.eu/resource/authority/country/NLD"/>
+            </hasLocation>
+            <lastModificationDate>2019-10-22T09:26:00</lastModificationDate>
+        </organization>
+        <organization id="http://www.example.com/organization/0004">
+            <registration spatialID="http://publications.europa.eu/resource/authority/country/BEL">0419.052.0004</registration>
+            <prefLabel>
+            	<text content-type="text/plain" lang="en">Test en prefLabel for ORG 0004</text>
+            </prefLabel>
+            <prefLabel>
+            	<text content-type="text/plain" lang="nl">Test nl prefLabel for ORG 0004, should be converted to altLabel</text>
+            </prefLabel>
+            <altLabel>
+            	<text content-type="text/plain" lang="en">Test en altLabel for ORG 0004</text>
+            </altLabel>
+            <altLabel>
+            	<text content-type="text/plain" lang="nl">Test nl altLabel for ORG 0004</text>
+            </altLabel>
+            <hasLocation>
+                <spatialCode uri="http://publications.europa.eu/resource/authority/country/NLD"/>
+            </hasLocation>
+            <lastModificationDate>2019-10-22T09:26:00</lastModificationDate>
+        </organization>
+        <organization id="http://www.example.com/organization/0005">
+            <registration spatialID="http://publications.europa.eu/resource/authority/country/BEL">0419.052.0005</registration>
+            <prefLabel>
+            	<text content-type="text/plain" lang="en">Test en prefLabel for ORG 0005</text>
+            </prefLabel>
+            <prefLabel>
+            	<text content-type="text/plain" lang="nl">Test nl prefLabel for ORG 0005, should be converted to altLabel</text>
+            </prefLabel>
+            <altLabel>
+            	<text content-type="text/plain" lang="en">Test en altLabel for ORG 0005</text>
+            </altLabel>
+            <altLabel>
+            	<text content-type="text/plain" lang="nl">Test nl altLabel for ORG 0005</text>
+            </altLabel>
+            <hasLocation>
+                <spatialCode uri="http://publications.europa.eu/resource/authority/country/NLD"/>
+            </hasLocation>
+            <lastModificationDate>2019-10-22T09:26:05</lastModificationDate>
+        </organization>
+        <organization id="http://www.example.com/organization/0006">
+            <registration spatialID="http://publications.europa.eu/resource/authority/country/BEL">0419.052.0006</registration>
+            <prefLabel>
+            	<text content-type="text/plain" lang="en">Test en prefLabel for ORG 0006</text>
+            </prefLabel>
+            <prefLabel>
+            	<text content-type="text/plain" lang="nl">Test nl prefLabel for ORG 0006, should be converted to altLabel</text>
+            </prefLabel>
+            <altLabel>
+            	<text content-type="text/plain" lang="en">Test en altLabel for ORG 0006</text>
+            </altLabel>
+            <altLabel>
+            	<text content-type="text/plain" lang="nl">Test nl altLabel for ORG 0006</text>
+            </altLabel>
+            <hasLocation>
+                <spatialCode uri="http://publications.europa.eu/resource/authority/country/NLD"/>
+            </hasLocation>
+            <lastModificationDate>2019-10-22T09:26:06</lastModificationDate>
+        </organization>
+        <organization id="http://www.example.com/organization/0007">
+            <registration spatialID="http://publications.europa.eu/resource/authority/country/BEL">0419.052.0007</registration>
+            <prefLabel>
+            	<text content-type="text/plain" lang="en">Test en prefLabel for ORG 0007</text>
+            </prefLabel>
+            <prefLabel>
+            	<text content-type="text/plain" lang="nl">Test nl prefLabel for ORG 0007, should be converted to altLabel</text>
+            </prefLabel>
+            <altLabel>
+            	<text content-type="text/plain" lang="en">Test en altLabel for ORG 0007</text>
+            </altLabel>
+            <altLabel>
+            	<text content-type="text/plain" lang="nl">Test nl altLabel for ORG 0007</text>
+            </altLabel>
+            <hasLocation>
+                <spatialCode uri="http://publications.europa.eu/resource/authority/country/NLD"/>
+            </hasLocation>
+            <lastModificationDate>2019-10-22T09:26:06</lastModificationDate>
+        </organization>
+    </agentReferences>
+    <scoringSchemeReferences>
+        <scoringScheme id="http://www.example.com/scoringScheme/0001">
+            <title>
+            	<text content-type="text/plain" lang="en">NVAO Review results</text>
+            </title>
+            <title>
+            	<text content-type="text/plain" lang="nl">NVAO beoordelingsresultaten</text>
+            </title>
+            <description>
+                <text lang="en" content-type="text/html"><![CDATA[<b>When an institution is reviewed, it will get either a Positive or a Negative verdict.</b>]]></text>
+                <subject uri="http://data.europa.eu/esco/qualification-topics#regulations-and-certificates"></subject>
+            </description>
+            <description>
+                <text lang="nl" content-type="text/plain">Wanneer een instelling wordt beoordeeld, krijgt deze een positief of een negatief oordeel.</text>
+            </description>
+            <supplementaryDoc uri="https://www.nvao.net/nl/procedures/vlaanderen/instellingsreview">
+                <title>
+                	<text content-type="text/plain" lang="en">review</text>
+                </title>
+                <title>
+                	<text content-type="text/plain" lang="nl">instellingsreview</text>
+                </title>
+                <language uri="http://publications.europa.eu/resource/authority/language/ENG"></language>
+                <language uri="http://publications.europa.eu/resource/authority/language/NLD"></language>
+                <subject uri="http://data.europa.eu/esco/qualification-topics#regulations-and-certificates"></subject>
+            </supplementaryDoc>
+            <supplementaryDoc uri="https://www.nvao.net/nl/procedures/vlaanderen/instellingsreview2">
+                <title>
+                	<text content-type="text/plain" lang="en">review 2</text>
+                </title>
+                <title>
+                	<text content-type="text/plain" lang="nl">instellingsreview 2</text>
+                </title>
+            </supplementaryDoc>
+            <supplementaryDoc uri="https://www.nvao.net/nl/procedures/vlaanderen/instellingsreview3" />
+        </scoringScheme>
+        <scoringScheme id="http://www.example.com/scoringScheme/0002">
+            <title>
+            	<text content-type="text/plain" lang="en">Licensing levels</text>
+            </title>
+            <description>
+                <text lang="en" content-type="text/html"><![CDATA[Institutions can have different Licensing Types. <ul><li>gold level</li><li>silver level</li><li>bronz level</li></ul> No level will be awarded to institutions that are not licensed.]]></text>
+            </description>
+        </scoringScheme>
+        <scoringScheme id="http://www.example.com/scoringScheme/0003">
+            <title>
+            	<text content-type="text/plain" lang="en">Any review</text>
+            </title>
+        </scoringScheme>
+    </scoringSchemeReferences>
+    <semanticFrameworkReferences>
+        <framework id="http://www.example.com/semanticFramework/0001">
+            <identifier
+                schemeID="testSFIdentifierSchemeID_0001"
+                schemeAgencyID="http://testSFIdentifierSchemeAgencyID_0001.com"
+                schemeAgencyName="testSFIdentifierSchemeAgencyName_0001"
+                issuedDate="2000-12-01T00:00:00"
+                spatialID="http://publications.europa.eu/resource/authority/country/BEL">SF0001ID01</identifier>
+            <identifier
+                schemeID="testSFIdentifier2SchemeID_0001"
+                schemeAgencyID="http://testSFIdentifier2SchemeAgencyID_0001.com"
+                schemeAgencyName="testSFIdentifier2SchemeAgencyName_0001"
+                issuedDate="2001-12-01T00:00:00"
+                spatialID="http://publications.europa.eu/resource/authority/country/NLD">SF0001ID02</identifier>
+            <title>
+            	<text content-type="text/plain" lang="en">semantic framework 0001 'en' title</text>
+            </title>
+            <title>
+            	<text content-type="text/plain" lang="nl">semantic framework 0001 'nl' title</text>
+            </title>
+            <description>
+                <text lang="en" content-type="text/plain">semantic framework 0001 'en' description</text>
+                <subject uri="http://data.europa.eu/esco/qualification-topics#awarding-activity"></subject>
+                <subject uri="http://data.europa.eu/esco/qualification-topics#contact-info"></subject>
+            </description>
+            <description>
+                <text lang="nl" content-type="text/plain">semantic framework 0001 'nl' description</text>
+                <subject uri="http://data.europa.eu/esco/qualification-topics#pathways"></subject>
+            </description>
+            <supplementaryDoc uri="https://example.com/sf0001/supDoc/1/">
+                <title>
+                	<text content-type="text/plain" lang="en">semantic framework 0001 sup doc 1 'en' title</text>
+                </title>
+                <title>
+                	<text content-type="text/plain" lang="nl">semantic framework 0001 sup doc 1 'nl' title</text>
+                </title>
+                <language uri="http://publications.europa.eu/resource/authority/language/ENG"></language>
+                <language uri="http://publications.europa.eu/resource/authority/language/NLD"></language>
+                <subject uri="http://data.europa.eu/esco/qualification-topics#history-and-lifecycle"></subject>
+                <subject uri="http://data.europa.eu/esco/qualification-topics#regulations-and-certificates"></subject>
+            </supplementaryDoc>
+            <supplementaryDoc uri="https://example.com/sf0001/supDoc/2/">
+                <title>
+                	<text content-type="text/plain" lang="en">semantic framework 0001 sup doc 2 'en' title</text>
+                </title>
+                <title>
+                	<text content-type="text/plain" lang="nl">semantic framework 0001 sup doc 2 'nl' title</text>
+                </title>
+                <subject uri="http://data.europa.eu/esco/qualification-topics#history-and-lifecycle"></subject>
+            </supplementaryDoc>
+            <supplementaryDoc uri="https://example.com/sf0001/supDoc/3/" />
+        </framework>
+        <framework id="http://www.example.com/semanticFramework/0002">
+            <title>
+            	<text content-type="text/plain" lang="en">semantic framework 0002 'en' title </text>
+            </title>
+        </framework>
+        <framework id="http://www.example.com/semanticFramework/0003">
+            <title>
+            	<text content-type="text/plain" lang="en">semantic framework 0003 'en' title </text>
+            </title>
+        </framework>
+    </semanticFrameworkReferences>
+</qmsLearningOpportunities>

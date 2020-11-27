@@ -1,0 +1,7 @@
+.. _creditpoints-type:
+
+CreditPoints
+============
+
+
+

@@ -1,0 +1,7 @@
+.. _ectscreditpoints-type:
+
+ECTSCreditPoints
+================
+
+
+
