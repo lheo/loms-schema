@@ -12,10 +12,10 @@ BUILDDIR      = build
 # Doc generation from XSD schemas
 #
 XSLTPROC ?= xsltproc
-TORST = scripts/xsd2rst.xsl
+TORST = ../../gelaba/xsd-scripts/xsd2rst.xsl
 LOMS = ../src/1.0.0/loms-onisep.xsd
 
-# generated with xsltproc --stringparam part targets scripts/xsd2makefile.xsl ../ploteus/static/schemas/LOMSv1.0/loms.xsd
+# generated with xsltproc --stringparam part targets ../../gelaba/xsd-scripts/xsd2makefile.xsl ../ploteus/static/schemas/LOMSv1.0/loms.xsd
 LOMSDOC = source/loms/qmslearningopportunities.rst \
 source/loms/learningopportunitiesroot.rst \
 source/loms/learningopportunityreferences.rst \
@@ -132,7 +132,7 @@ source/loms/relatedescoskill.rst \
 source/loms/limitoccupation.rst \
 source/loms/limitnationaloccupation.rst
 
-# Generated with: xsltproc scripts/xsd2makefile.xsl ../ploteus/static/schemas/LOMSv1.0/loms.xsd
+# Generated with: xsltproc ../../gelaba/xsd-scripts/xsd2makefile.xsl ../ploteus/static/schemas/LOMSv1.0/loms.xsd
 source/loms/qmslearningopportunities.rst: $(TORST) $(LOMS)
 	$(XSLTPROC) -o $@ --stringparam typename qmsLearningOpportunities $(TORST) $(LOMS)
 source/loms/learningopportunitiesroot.rst: $(TORST) $(LOMS)
@@ -377,3 +377,4 @@ html: Makefile $(LOMSDOC)
 
 clean: Makefile
 	$(SPHINXBUILD) -M $@ "$(SOURCEDIR)" "$(BUILDDIR)" $(SPHINXOPTS) $(O)
+
