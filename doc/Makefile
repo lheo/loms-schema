@@ -5,6 +5,9 @@
 # from the environment for the first two.
 SPHINXOPTS    ?=
 SPHINXBUILD   ?= sphinx-build
+PUBLISHDIR ?= www_onisep/languages/loms/1.0.0/doc
+PUBLISHHOST ?= lheo@boreon.silbercafe.net
+
 SOURCEDIR     = source
 BUILDDIR      = build
 
@@ -378,3 +381,6 @@ html: Makefile $(LOMSDOC)
 clean: Makefile
 	$(SPHINXBUILD) -M $@ "$(SOURCEDIR)" "$(BUILDDIR)" $(SPHINXOPTS) $(O)
 
+publish: html
+	ssh $(PUBLISHHOST) "mkdir -p $(PUBLISHDIR)"
+	rsync --archive --verbose build/html/. $(PUBLISHHOST):$(PUBLISHDIR)
