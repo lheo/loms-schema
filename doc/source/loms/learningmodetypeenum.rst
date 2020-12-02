@@ -1,7 +1,7 @@
 .. _learningmodetypeenum-type:
 
-LearningModeTypeEnum
-====================
+LearningModeTypeEnum type
+=========================
 
 
 

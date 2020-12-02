@@ -1,6 +1,10 @@
 LOMS Document
 =============
 
+UML diagram of the main elements
+--------------------------------
+
+.. image:: loms_1_0_0_uml.png
 
 Example
 -------

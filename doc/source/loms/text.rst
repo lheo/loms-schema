@@ -1,7 +1,7 @@
 .. _text-type:
 
-Text
-====
+Text type
+=========
 
 A formatted character string (i.e. a finite set of characters) in the form of words of a language.
 

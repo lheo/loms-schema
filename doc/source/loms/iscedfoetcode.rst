@@ -1,9 +1,14 @@
-.. _iscedfoetcode-type:
+.. _hasisced-fcode-element:
 
-IscedFOetCode
-=============
+hasISCED-FCode element
+======================
 
+The ISCED FoET 2013 classification code. It indicates the thematic area of the learning specification/qualification.
 
+.. code-block:: xml
+
+  <hasISCED-FCode uri="...">
+  </hasISCED-FCode>
 
 Restricts: :ref:`uribasedcode-type`
 

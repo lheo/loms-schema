@@ -1,29 +1,39 @@
 .. _learningactivityspecification-type:
 
-LearningActivitySpecification
-=============================
+LearningActivitySpecification type
+==================================
 
 A LearningActivitySpecification is a specification of a process which leads to the acquisition of knowdledge, skills or responsibilty and autonomy.
 
 .. code-block:: xml
 
-  <!-- SEQUENCE -->
-  <!-- begin group CommonSpecificationElements -->
-  <identifier>...</identifier> <!-- 0,n -->
-  <title>...</title> <!-- 0,n -->
-  <altLabel>...</altLabel> <!-- 0,n -->
-  <description>...</description> <!-- 0,n -->
-  <additionalNote>...</additionalNote> <!-- 0,n -->
-  <homepage>...</homepage> <!-- 0,n -->
-  <supplementaryDoc>...</supplementaryDoc> <!-- 0,n -->
-  <!-- end group CommonSpecificationElements -->
-  <type>...</type> <!-- 0,n -->
-  <workload>...</workload> <!-- 0,1 -->
-  <language>...</language> <!-- 0,n -->
-  <mode>...</mode> <!-- 0,n -->
-  <teaches>...</teaches> <!-- 0,n -->
-  <hasPart>...</hasPart> <!-- 0,n -->
-  <specializationOf>...</specializationOf> <!-- 0,n -->
+  <... id="...">
+    <!-- SEQUENCE -->
+    <!-- begin group CommonSpecificationElements -->
+    <identifier>...</identifier> <!-- 0,n -->
+    <title>...</title> <!-- 0,n -->
+    <altLabel>...</altLabel> <!-- 0,n -->
+    <description>...</description> <!-- 0,n -->
+    <additionalNote>...</additionalNote> <!-- 0,n -->
+    <homepage>...</homepage> <!-- 0,n -->
+    <supplementaryDoc>...</supplementaryDoc> <!-- 0,n -->
+    <!-- end group CommonSpecificationElements -->
+    <type>...</type> <!-- 0,n -->
+    <workload>...</workload> <!-- 0,1 -->
+    <language>...</language> <!-- 0,n -->
+    <mode>...</mode> <!-- 0,n -->
+    <teaches>...</teaches> <!-- 0,n -->
+    <hasPart>...</hasPart> <!-- 0,n -->
+    <specializationOf>...</specializationOf> <!-- 0,n -->
+  </...>
+
+
+Attributes
+-----------
+
+``id``: ``required`` :ref:`id-type`
+	A portable identifier of the learning activity specification. (i.e. a urn in the uuid namespace). It is this identifier that MUST be used to link or refer to this learning activity specification from other places within the document.
+
 
 Elements
 --------
@@ -69,12 +79,5 @@ Elements
 
 ``specializationOf``: :ref:`idreference-type`
 	An activity specification can be a specialization of another activity specification. It MUST refer to an existing record in the 'learningActivitySpecificationReferences'-section of this document.
-
-
-Attributes
------------
-
-``id``: ``required`` :ref:`id-type`
-	A portable identifier of the learning activity specification. (i.e. a urn in the uuid namespace). It is this identifier that MUST be used to link or refer to this learning activity specification from other places within the document.
 
 

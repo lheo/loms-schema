@@ -1,7 +1,7 @@
 .. _nutscodeenum-type:
 
-NutsCodeEnum
-============
+NutsCodeEnum type
+=================
 
 
 

@@ -1,7 +1,7 @@
 .. _mediatype-type:
 
-MediaType
-=========
+MediaType type
+==============
 
 
 

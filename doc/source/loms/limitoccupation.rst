@@ -1,9 +1,14 @@
-.. _limitoccupation-type:
+.. _limitoccupation-element:
 
-LimitOccupation
-===============
+limitOccupation element
+=======================
 
+A link to an ESCO Occupcation or Occupational Category.
 
+.. code-block:: xml
+
+  <limitOccupation>
+  </limitOccupation>
 
 Restricts: :ref:`code-type`
 

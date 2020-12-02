@@ -1,7 +1,7 @@
 .. _reusabilitylevelenum-type:
 
-ReusabilityLevelEnum
-====================
+ReusabilityLevelEnum type
+=========================
 
 
 

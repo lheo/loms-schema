@@ -1,7 +1,7 @@
 .. _languagecharcodeenum-type:
 
-LanguageCharCodeEnum
-====================
+LanguageCharCodeEnum type
+=========================
 
 
 

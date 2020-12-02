@@ -1,7 +1,7 @@
 .. _skillalignmenttypeenum-type:
 
-SkillAlignmentTypeEnum
-======================
+SkillAlignmentTypeEnum type
+===========================
 
 
 

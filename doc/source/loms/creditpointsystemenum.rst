@@ -1,7 +1,7 @@
 .. _creditpointsystemenum-type:
 
-CreditPointSystemEnum
-=====================
+CreditPointSystemEnum type
+==========================
 
 
 

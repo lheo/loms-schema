@@ -1,9 +1,14 @@
-.. _ectscreditpoints-type:
+.. _hasectscreditpoints-element:
 
-ECTSCreditPoints
-================
+hasECTSCreditPoints element
+===========================
 
+The credit points assigned to the learning specification/qualification, following the ECTS credit system.
 
+.. code-block:: xml
+
+  <hasECTSCreditPoints>
+  </hasECTSCreditPoints>
 
 Restricts: :ref:`numericscore-type`
 

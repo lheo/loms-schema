@@ -1,7 +1,7 @@
 .. _numericscore-type:
 
-NumericScore
-============
+NumericScore type
+=================
 
 
 

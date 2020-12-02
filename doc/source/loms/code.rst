@@ -1,28 +1,18 @@
 .. _code-type:
 
-Code
-====
+Code type
+=========
 
 A term from a controlled vocabulary. A code is a character string of letters, numbers, special characters (except escape sequences), and symbols. It represents a definitive value, a method, or a property description in an abbreviated or language-independent form that is part of a finite list of allowed values. The CodeType is used for all elements that are used to enable a common coded value representation. Typical example of code types are: Country Code and Language Code. The CodeType should be used in case of a finite list of allowed values. The IdentifierType should be used in case of an infinite set of objects. This CodeType is a generic data type which is also used to represent association objects.
 
 .. code-block:: xml
 
-  <!-- SEQUENCE -->
-  <targetName>...</targetName> <!-- 0,n -->
-  <targetDescription>...</targetDescription> <!-- 0,n -->
-  <targetFrameworkName>...</targetFrameworkName> <!-- 0,n -->
-
-Elements
---------
-
-``targetName``: :ref:`languagestring-type`
-	A name or label of the associated object in the targeted framework.
-
-``targetDescription``: :ref:`note-type`
-	A description of the associated object in the targeted framework.
-
-``targetFrameworkName``: :ref:`languagestring-type`
-	The name of the framework or system used to describe the associated object.
+  <...>
+    <!-- SEQUENCE -->
+    <targetName>...</targetName> <!-- 0,n -->
+    <targetDescription>...</targetDescription> <!-- 0,n -->
+    <targetFrameworkName>...</targetFrameworkName> <!-- 0,n -->
+  </...>
 
 
 Attributes
@@ -51,5 +41,18 @@ Attributes
 
 ``targetFrameworkSpatialID``: ``optional`` :ref:`locationcodecontent-type`
 	The spatial coverage (country or region) of the framework or system used to describe the assoicated object..
+
+
+Elements
+--------
+
+``targetName``: :ref:`languagestring-type`
+	A name or label of the associated object in the targeted framework.
+
+``targetDescription``: :ref:`note-type`
+	A description of the associated object in the targeted framework.
+
+``targetFrameworkName``: :ref:`languagestring-type`
+	The name of the framework or system used to describe the associated object.
 
 

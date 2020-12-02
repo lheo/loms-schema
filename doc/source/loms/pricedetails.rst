@@ -1,22 +1,24 @@
-.. _pricedetails-type:
+.. _pricedetails-element:
 
-PriceDetails
-============
+priceDetails element
+====================
 
-The details about a price or price category.
+The price details.
 
 .. code-block:: xml
 
-  <!-- SEQUENCE -->
-  <amount>...</amount> <!-- 0,1 -->
-  <name>...</name> <!-- 0,n -->
-  <description>...</description> <!-- 0,n -->
-  <additionalNote>...</additionalNote> <!-- 0,n -->
+  <priceDetails>
+    <!-- SEQUENCE -->
+    <amount>...</amount> <!-- 0,1 -->
+    <name>...</name> <!-- 0,n -->
+    <description>...</description> <!-- 0,n -->
+    <additionalNote>...</additionalNote> <!-- 0,n -->
+  </priceDetails>
 
 Elements
 --------
 
-``amount``: :ref:`amount-type`
+``amount``: :ref:`amount-element`
 	The amount.
 
 ``name``: :ref:`languagestring-type`

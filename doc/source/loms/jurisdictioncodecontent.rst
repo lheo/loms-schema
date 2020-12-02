@@ -1,9 +1,14 @@
-.. _jurisdictioncodecontent-type:
+.. _limitjurisdiction-element:
 
-JurisdictionCodeContent
-=======================
+limitJurisdiction element
+=========================
 
+The jurisdiction for which the entitlement is valid.
 
+.. code-block:: xml
+
+  <limitJurisdiction uri="...">
+  </limitJurisdiction>
 
 Restricts: :ref:`uribasedcode-type`
 

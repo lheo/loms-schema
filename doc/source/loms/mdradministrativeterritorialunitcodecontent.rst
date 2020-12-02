@@ -1,7 +1,7 @@
 .. _mdradministrativeterritorialunitcodecontent-type:
 
-MDRAdministrativeTerritorialUnitCodeContent
-===========================================
+MDRAdministrativeTerritorialUnitCodeContent type
+================================================
 
 
 

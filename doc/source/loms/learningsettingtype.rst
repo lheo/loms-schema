@@ -1,9 +1,14 @@
-.. _learningsettingtype-type:
+.. _learningsettingtype-element:
 
-LearningSettingType
-===================
+learningSettingType element
+===========================
 
+The type of learning setting (i.e. formal learning, non-formal learning).
 
+.. code-block:: xml
+
+  <learningSettingType uri="...">
+  </learningSettingType>
 
 Restricts: :ref:`uribasedcode-type`
 

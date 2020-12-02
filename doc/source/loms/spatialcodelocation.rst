@@ -1,20 +1,26 @@
-.. _spatialcodelocation-type:
+.. _haslocation-element:
 
-SpatialCodeLocation
+hasLocation element
 ===================
 
-An identifiable geographic place. A physical location. Spatial code is mandatory.
+The legally registered site of the organisation. The country or region and eventually the address.
+
+.. code-block:: xml
+
+  <hasLocation>
+  </hasLocation>
 
 Restricts: :ref:`location-type`
 
 .. code-block:: xml
 
-  <!-- SEQUENCE -->
-  <identifier>...</identifier> <!-- 0,n -->
-  <name>...</name> <!-- 0,n -->
-  <description>...</description> <!-- 0,n -->
-  <hasAddress>...</hasAddress> <!-- 0,n -->
-  <spatialCode>...</spatialCode> <!-- 1,n -->
+
+    <!-- SEQUENCE -->
+    <identifier>...</identifier> <!-- 0,n -->
+    <name>...</name> <!-- 0,n -->
+    <description>...</description> <!-- 0,n -->
+    <hasAddress>...</hasAddress> <!-- 0,n -->
+    <spatialCode>...</spatialCode> <!-- 1,n -->
 
 Elements
 --------

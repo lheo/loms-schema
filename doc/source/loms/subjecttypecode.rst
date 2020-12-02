@@ -1,7 +1,7 @@
 .. _subjecttypecode-type:
 
-SubjectTypeCode
-===============
+SubjectTypeCode type
+====================
 
 
 

@@ -13,3 +13,5 @@ Plusieurs aspects du schéma sont troublants et induisent une irrégularité dan
 Tous les éléments ``xxxxReferences`` devraient s'appeler ``xxxDefinitions``, car ce ne sont pas des références à des éléments existants mais bien des définitions.
 
 Erreur dans la documentation: "An individual (expected) learning outcome of the learning specification/qualification. It MUST refer to an existing 'LearningOutcome'-record in the 'learningSpecificationReferences'-section of this document." Cela devrait être: *LearningOutcomeReferences*.
+
+Des éléments avec le même nom n'ont pas le même type. Ce n'est pas un bon design (par exemple ``learningActivitySpecification``).

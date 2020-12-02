@@ -1,9 +1,14 @@
-.. _amount-type:
+.. _amount-element:
 
-Amount
-======
+amount element
+==============
 
+The amount.
 
+.. code-block:: xml
+
+  <amount unit="...">
+  </amount>
 
 Extends: `xs:decimal <https://www.w3.org/TR/xmlschema11-2/#decimal>`_
 

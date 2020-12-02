@@ -1,7 +1,7 @@
 .. _mdrcountrycodeenum-type:
 
-MDRCountryCodeEnum
-==================
+MDRCountryCodeEnum type
+=======================
 
 
 

@@ -22276,8 +22276,8 @@
 		    <xs:annotation>
 			  <xs:documentation>An individual (expected) learning outcome of the
 				learning specification/qualification. It MUST refer to an
-				existing <xrst:ref>LearningOutcome</xrst:ref> in the
-				<xrst:ref>LearningOutcomes</xrst:ref>
+				existing <xrst:ref>LearningOutcomeType</xrst:ref> in the
+				<xrst:ref>LearningOutcomeReferencesType</xrst:ref>
 				of this
 				document.</xs:documentation>
 		    </xs:annotation>

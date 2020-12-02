@@ -1,9 +1,14 @@
-.. _relatedescoskill-type:
+.. _relatedescoskill-element:
 
-RelatedEscoSkill
-================
+relatedEscoSkill element
+========================
 
 A link/alignment to an ESCO Skill.
+
+.. code-block:: xml
+
+  <relatedEscoSkill>
+  </relatedEscoSkill>
 
 Restricts: :ref:`code-type`
 

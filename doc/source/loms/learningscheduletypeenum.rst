@@ -1,7 +1,7 @@
 .. _learningscheduletypeenum-type:
 
-LearningScheduleTypeEnum
-========================
+LearningScheduleTypeEnum type
+=============================
 
 
 

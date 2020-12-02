@@ -1,7 +1,7 @@
 .. _mdrcurrencyenum-type:
 
-MDRCurrencyEnum
-===============
+MDRCurrencyEnum type
+====================
 
 
 

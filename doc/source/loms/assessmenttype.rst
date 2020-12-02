@@ -1,7 +1,7 @@
 .. _assessmenttype-type:
 
-AssessmentType
-==============
+AssessmentType type
+===================
 
 
 

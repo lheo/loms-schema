@@ -1,7 +1,7 @@
 .. _escoorganizationtypeenum-type:
 
-EscoOrganizationTypeEnum
-========================
+EscoOrganizationTypeEnum type
+=============================
 
 
 

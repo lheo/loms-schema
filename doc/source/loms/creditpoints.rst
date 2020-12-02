@@ -1,9 +1,14 @@
-.. _creditpoints-type:
+.. _hascreditpoints-element:
 
-CreditPoints
-============
+hasCreditPoints element
+=======================
 
+The credit points assigned to the learning specification/qualification, following a given credit system other than ECTS.
 
+.. code-block:: xml
+
+  <hasCreditPoints>
+  </hasCreditPoints>
 
 Restricts: :ref:`numericscore-type`
 

@@ -1,7 +1,7 @@
 .. _entitlementstatusenum-type:
 
-EntitlementStatusEnum
-=====================
+EntitlementStatusEnum type
+==========================
 
 
 

@@ -1,9 +1,14 @@
-.. _countrycode-type:
+.. _country-element:
 
-CountryCode
-===========
+country element
+===============
 
+The address country Code. The uppermost administrative unit for the address.
 
+.. code-block:: xml
+
+  <country uri="...">
+  </country>
 
 Restricts: :ref:`uribasedcode-type`
 

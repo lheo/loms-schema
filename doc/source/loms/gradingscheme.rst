@@ -1,9 +1,14 @@
-.. _gradingscheme-type:
+.. _gradingscheme-element:
 
-GradingScheme
-=============
+gradingScheme element
+=====================
 
-A link or reference to another entity record in the credential document.
+Used grading scheme. It MUST refer to an existing record in the 'scoringSchemeReferences'-section of this document.
+
+.. code-block:: xml
+
+  <gradingScheme idref="...">
+  </gradingScheme>
 
 Attributes
 -----------

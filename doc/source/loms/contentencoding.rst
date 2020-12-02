@@ -1,7 +1,7 @@
 .. _contentencoding-type:
 
-ContentEncoding
-===============
+ContentEncoding type
+====================
 
 
 

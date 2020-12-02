@@ -1,18 +1,21 @@
 .. _location-type:
 
-Location
-========
+Location type
+=============
 
 An identifiable geographic place. A physical location.
 
 .. code-block:: xml
 
-  <!-- SEQUENCE -->
-  <identifier>...</identifier> <!-- 0,n -->
-  <name>...</name> <!-- 0,n -->
-  <description>...</description> <!-- 0,n -->
-  <hasAddress>...</hasAddress> <!-- 0,n -->
-  <spatialCode>...</spatialCode> <!-- 0,n -->
+  <...>
+    <!-- SEQUENCE -->
+    <identifier>...</identifier> <!-- 0,n -->
+    <name>...</name> <!-- 0,n -->
+    <description>...</description> <!-- 0,n -->
+    <hasAddress>...</hasAddress> <!-- 0,n -->
+    <spatialCode>...</spatialCode> <!-- 0,n -->
+  </...>
+
 
 Elements
 --------

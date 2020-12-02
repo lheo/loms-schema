@@ -1,7 +1,7 @@
 .. _learningmode-type:
 
-LearningMode
-============
+LearningMode type
+=================
 
 
 

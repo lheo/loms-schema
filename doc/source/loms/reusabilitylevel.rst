@@ -1,9 +1,14 @@
-.. _reusabilitylevel-type:
+.. _reusabilitylevel-element:
 
-ReusabilityLevel
-================
+reusabilityLevel element
+========================
 
+The reusability level.
 
+.. code-block:: xml
+
+  <reusabilityLevel uri="...">
+  </reusabilityLevel>
 
 Restricts: :ref:`uribasedcode-type`
 

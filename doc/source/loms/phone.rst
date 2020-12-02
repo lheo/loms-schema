@@ -1,17 +1,19 @@
-.. _phone-type:
+.. _phone-element:
 
-Phone
-=====
+phone element
+=============
 
-A phone number.
+A phone number used for contacting the agent.
 
 .. code-block:: xml
 
-  <!-- SEQUENCE -->
-  <phoneNumber>...</phoneNumber> <!-- 0,1 -->
-  <countryDialing>...</countryDialing> <!-- 0,1 -->
-  <areaDialing>...</areaDialing> <!-- 0,1 -->
-  <dialNumber>...</dialNumber> <!-- 0,1 -->
+  <phone>
+    <!-- SEQUENCE -->
+    <phoneNumber>...</phoneNumber> <!-- 0,1 -->
+    <countryDialing>...</countryDialing> <!-- 0,1 -->
+    <areaDialing>...</areaDialing> <!-- 0,1 -->
+    <dialNumber>...</dialNumber> <!-- 0,1 -->
+  </phone>
 
 Elements
 --------

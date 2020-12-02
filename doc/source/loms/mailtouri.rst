@@ -1,7 +1,7 @@
 .. _mailtouri-type:
 
-MailToUri
-=========
+MailToUri type
+==============
 
 mailto: URI scheme conform to RFC 2368.
 

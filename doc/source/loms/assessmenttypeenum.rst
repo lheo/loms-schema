@@ -1,7 +1,7 @@
 .. _assessmenttypeenum-type:
 
-AssessmentTypeEnum
-==================
+AssessmentTypeEnum type
+=======================
 
 
 

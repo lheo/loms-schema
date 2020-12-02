@@ -1,7 +1,7 @@
 .. _learningsettingtypeenum-type:
 
-LearningSettingTypeEnum
-=======================
+LearningSettingTypeEnum type
+============================
 
 
 

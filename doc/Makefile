@@ -16,11 +16,11 @@ BUILDDIR      = build
 #
 XSLTPROC ?= xsltproc
 TORST = ../../gelaba/xsd-scripts/xsd2rst.xsl
+XSDINFO = ../../gelaba/xsd-scripts/xsdlib.xsl
 LOMS = ../src/1.0.0/loms-onisep.xsd
 
 # generated with xsltproc --stringparam part targets ../../gelaba/xsd-scripts/xsd2makefile.xsl ../ploteus/static/schemas/LOMSv1.0/loms.xsd
-LOMSDOC = source/loms/qmslearningopportunities.rst \
-source/loms/learningopportunitiesroot.rst \
+LOMSDOC = source/loms/learningopportunitiesroot.rst \
 source/loms/learningopportunityreferences.rst \
 source/loms/learningspecificationreferences.rst \
 source/loms/learningoutcomereferences.rst \
@@ -136,8 +136,8 @@ source/loms/limitoccupation.rst \
 source/loms/limitnationaloccupation.rst
 
 # Generated with: xsltproc ../../gelaba/xsd-scripts/xsd2makefile.xsl ../ploteus/static/schemas/LOMSv1.0/loms.xsd
-source/loms/qmslearningopportunities.rst: $(TORST) $(LOMS)
-	$(XSLTPROC) -o $@ --stringparam typename qmsLearningOpportunities $(TORST) $(LOMS)
+#source/loms/qmslearningopportunities.rst: $(TORST) $(LOMS)
+#	$(XSLTPROC) -o $@ --stringparam typename qmsLearningOpportunities $(TORST) $(LOMS)
 source/loms/learningopportunitiesroot.rst: $(TORST) $(LOMS)
 	$(XSLTPROC) -o $@ --stringparam typename LearningOpportunitiesRootType $(TORST) $(LOMS)	
 source/loms/languagestring.rst: $(TORST) $(LOMS)
@@ -371,7 +371,7 @@ source/loms/limitnationaloccupation.rst: $(TORST) $(LOMS)
 help:
 	@$(SPHINXBUILD) -M help "$(SOURCEDIR)" "$(BUILDDIR)" $(SPHINXOPTS) $(O)
 
-.PHONY: help Makefile html clean
+.PHONY: help Makefile html clean publish xsdinfo
 
 # Catch-all target: route all unknown targets to Sphinx using the new
 # "make mode" option.  $(O) is meant as a shortcut for $(SPHINXOPTS).
@@ -384,3 +384,6 @@ clean: Makefile
 publish: html
 	ssh $(PUBLISHHOST) "mkdir -p $(PUBLISHDIR)"
 	rsync --archive --verbose build/html/. $(PUBLISHHOST):$(PUBLISHDIR)
+
+xsdinfo:
+	$(XSLTPROC) --stringparam action list-types $(XSDINFO) $(LOMS)

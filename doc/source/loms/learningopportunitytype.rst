@@ -1,7 +1,7 @@
 .. _learningopportunitytype-type:
 
-LearningOpportunityType
-=======================
+LearningOpportunityType type
+============================
 
 
 

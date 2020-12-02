@@ -1,9 +1,14 @@
-.. _learningscheduletype-type:
+.. _learningschedule-element:
 
-LearningScheduleType
-====================
+learningSchedule element
+========================
 
+The learning schedule. How often you need to go (i.e full time (more than 30 hours), PT intensive (8-30 hoours), PT light (less than 8 hours)).
 
+.. code-block:: xml
+
+  <learningSchedule uri="...">
+  </learningSchedule>
 
 Restricts: :ref:`uribasedcode-type`
 

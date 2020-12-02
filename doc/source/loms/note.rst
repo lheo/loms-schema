@@ -1,15 +1,18 @@
 .. _note-type:
 
-Note
-====
+Note type
+=========
 
 A formatted and annotated text fragment.
 
 .. code-block:: xml
 
-  <!-- SEQUENCE -->
-  <text>...</text> <!-- 1,1 -->
-  <subject>...</subject> <!-- 0,n -->
+  <...>
+    <!-- SEQUENCE -->
+    <text>...</text> <!-- 1,1 -->
+    <subject>...</subject> <!-- 0,n -->
+  </...>
+
 
 Elements
 --------

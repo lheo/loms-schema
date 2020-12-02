@@ -18,7 +18,6 @@ LOMS documentation
    :caption: Contents:
 
    loms
-   loms/qmslearningopportunities
    loms/learningopportunitiesroot
    loms/learningopportunity
    loms/learningspecificationreferences

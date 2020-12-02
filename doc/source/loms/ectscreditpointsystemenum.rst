@@ -1,7 +1,7 @@
 .. _ectscreditpointsystemenum-type:
 
-ECTSCreditPointSystemEnum
-=========================
+ECTSCreditPointSystemEnum type
+==============================
 
 
 

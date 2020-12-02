@@ -1,7 +1,7 @@
 .. _currencyenum-type:
 
-CurrencyEnum
-============
+CurrencyEnum type
+=================
 
 
 

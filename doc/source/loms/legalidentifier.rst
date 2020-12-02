@@ -1,7 +1,7 @@
 .. _legalidentifier-type:
 
-LegalIdentifier
-===============
+LegalIdentifier type
+====================
 
 
 

@@ -1,7 +1,7 @@
 .. _entitlementtypeenum-type:
 
-EntitlementTypeEnum
-===================
+EntitlementTypeEnum type
+========================
 
 
 

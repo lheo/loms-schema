@@ -1,7 +1,7 @@
 .. _iscedfoetcodeenum-type:
 
-IscedFOetCodeEnum
-=================
+IscedFOetCodeEnum type
+======================
 
 
 

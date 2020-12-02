@@ -1,7 +1,7 @@
 .. _imagemediatype-type:
 
-ImageMediaType
-==============
+ImageMediaType type
+===================
 
 
 

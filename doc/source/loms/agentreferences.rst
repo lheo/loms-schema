@@ -1,14 +1,16 @@
-.. _agentreferences-type:
+.. _agentreferences-element:
 
-AgentReferences
-===============
+agentReferences element
+=======================
 
-
+Container element to record all Organization entities that can be linked or refered to from other places in the xml document.
 
 .. code-block:: xml
 
-  <!-- SEQUENCE -->
-  <organization>...</organization> <!-- 0,n -->
+  <agentReferences>
+    <!-- SEQUENCE -->
+    <organization>...</organization> <!-- 0,n -->
+  </agentReferences>
 
 Elements
 --------

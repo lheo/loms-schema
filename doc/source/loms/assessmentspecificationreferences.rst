@@ -1,14 +1,16 @@
-.. _assessmentspecificationreferences-type:
+.. _assessmentspecificationreferences-element:
 
-AssessmentSpecificationReferences
-=================================
+assessmentSpecificationReferences element
+=========================================
 
-
+Container element to record all AssessmentSpecification entities that can be linked or refered to from other places in the xml document.
 
 .. code-block:: xml
 
-  <!-- SEQUENCE -->
-  <assessmentSpecification>...</assessmentSpecification> <!-- 0,n -->
+  <assessmentSpecificationReferences>
+    <!-- SEQUENCE -->
+    <assessmentSpecification>...</assessmentSpecification> <!-- 0,n -->
+  </assessmentSpecificationReferences>
 
 Elements
 --------

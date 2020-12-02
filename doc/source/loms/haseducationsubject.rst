@@ -1,18 +1,24 @@
-.. _haseducationsubject-type:
+.. _haseducationsubject-element:
 
-HasEducationSubject
-===================
+hasEducationSubject element
+===========================
 
 An associated field of education from another semantic framework than the ISCED classification.
+
+.. code-block:: xml
+
+  <hasEducationSubject>
+  </hasEducationSubject>
 
 Restricts: :ref:`code-type`
 
 .. code-block:: xml
 
-  <!-- SEQUENCE -->
-  <targetName>...</targetName> <!-- 0,n -->
-  <targetDescription>...</targetDescription> <!-- 0,n -->
-  <targetFrameworkName>...</targetFrameworkName> <!-- 0,n -->
+
+    <!-- SEQUENCE -->
+    <targetName>...</targetName> <!-- 0,n -->
+    <targetDescription>...</targetDescription> <!-- 0,n -->
+    <targetFrameworkName>...</targetFrameworkName> <!-- 0,n -->
 
 Elements
 --------

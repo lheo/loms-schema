@@ -1,9 +1,14 @@
-.. _learningoutcometype-type:
+.. _learningoutcometype-element:
 
-LearningOutcomeType
-===================
+learningOutcomeType element
+===========================
 
+The learning outcome type (i.e. knowledge, skill, ...).
 
+.. code-block:: xml
+
+  <learningOutcomeType uri="...">
+  </learningOutcomeType>
 
 Restricts: :ref:`uribasedcode-type`
 

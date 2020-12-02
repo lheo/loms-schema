@@ -1,20 +1,26 @@
-.. _imageobject-type:
+.. _logo-element:
 
-ImageObject
-===========
+logo element
+============
 
-A static visual representation. An image file as a media object embedded in another resource or published on the web.
+The logo of the organization.
+
+.. code-block:: xml
+
+  <logo>
+  </logo>
 
 Restricts: :ref:`mediaobject-type`
 
 .. code-block:: xml
 
-  <!-- SEQUENCE -->
-  <contentType>...</contentType> <!-- 1,1 -->
-  <contentEncoding>...</contentEncoding> <!-- 1,1 -->
-  <contentSize>...</contentSize> <!-- 0,1 -->
-  <contentUrl>...</contentUrl> <!-- 0,1 -->
-  <content>...</content> <!-- 1,1 -->
+
+    <!-- SEQUENCE -->
+    <contentType>...</contentType> <!-- 1,1 -->
+    <contentEncoding>...</contentEncoding> <!-- 1,1 -->
+    <contentSize>...</contentSize> <!-- 0,1 -->
+    <contentUrl>...</contentUrl> <!-- 0,1 -->
+    <content>...</content> <!-- 1,1 -->
 
 Elements
 --------

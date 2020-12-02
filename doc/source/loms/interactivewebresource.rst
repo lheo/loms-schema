@@ -1,9 +1,14 @@
-.. _interactivewebresource-type:
+.. _webresource-element:
 
-InteractiveWebResource
-======================
+webresource element
+===================
 
-A web resource that can be used to communicate. A web resource requiring interaction from the user to be understood, executed, or experienced. (e.g. forms on a web page, a chat service,…
+A contact form used for contacting the agent.
+
+.. code-block:: xml
+
+  <webresource uri="...">
+  </webresource>
 
 Attributes
 -----------

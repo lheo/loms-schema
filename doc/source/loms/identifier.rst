@@ -1,7 +1,7 @@
 .. _identifier-type:
 
-Identifier
-==========
+Identifier type
+===============
 
 Identifiers are needed to identify and link resources in a unique and persistent way. A resource identifier must be unique and persistent, meaning the identifier will always refer to the same resource and cannot be reused to identify other resources. A resource identifier consists of:
 

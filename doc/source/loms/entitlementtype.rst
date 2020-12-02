@@ -1,7 +1,7 @@
 .. _entitlementtype-type:
 
-EntitlementType
-===============
+EntitlementType type
+====================
 
 
 

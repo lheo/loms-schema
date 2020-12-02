@@ -1,7 +1,7 @@
 .. _idreference-type:
 
-IdReference
-===========
+IdReference type
+================
 
 A link or reference to another entity record in the credential document.
 

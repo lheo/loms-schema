@@ -1,17 +1,19 @@
-.. _awardingopportunity-type:
+.. _awardingopportunity-element:
 
-AwardingOpportunity
-===================
+awardingOpportunity element
+===========================
 
-
+Refers to an activity related to the awarding of the learning specification/qualification, such as the country or region where the learning specification/qualification is or was awarded, the awarding body and optionally the awarding period now or in the past.
 
 .. code-block:: xml
 
-  <!-- SEQUENCE -->
-  <organization>...</organization> <!-- 0,n -->
-  <location>...</location> <!-- 0,1 -->
-  <startedAtTime>...</startedAtTime> <!-- 0,1 -->
-  <endedAtTime>...</endedAtTime> <!-- 0,1 -->
+  <awardingOpportunity>
+    <!-- SEQUENCE -->
+    <organization>...</organization> <!-- 0,n -->
+    <location>...</location> <!-- 0,1 -->
+    <startedAtTime>...</startedAtTime> <!-- 0,1 -->
+    <endedAtTime>...</endedAtTime> <!-- 0,1 -->
+  </awardingOpportunity>
 
 Elements
 --------

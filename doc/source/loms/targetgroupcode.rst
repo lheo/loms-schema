@@ -1,9 +1,14 @@
-.. _targetgroupcode-type:
+.. _targetgroup-element:
 
-TargetGroupCode
-===============
+targetGroup element
+===================
 
+A specific target group or category for which this specification/qualification is designed.
 
+.. code-block:: xml
+
+  <targetGroup uri="...">
+  </targetGroup>
 
 Restricts: :ref:`uribasedcode-type`
 

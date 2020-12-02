@@ -1,7 +1,7 @@
 .. _activitytypeenum-type:
 
-ActivityTypeEnum
-================
+ActivityTypeEnum type
+=====================
 
 
 

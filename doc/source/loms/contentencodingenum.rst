@@ -1,7 +1,7 @@
 .. _contentencodingenum-type:
 
-ContentEncodingEnum
-===================
+ContentEncodingEnum type
+========================
 
 
 

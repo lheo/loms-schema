@@ -1,14 +1,16 @@
-.. _learningoutcomereferences-type:
+.. _learningoutcomereferences-element:
 
-LearningOutcomeReferences
-=========================
+learningOutcomeReferences element
+=================================
 
-
+Container element to record all LearningOutcome entities that can be linked or refered to from other places in the xml document.
 
 .. code-block:: xml
 
-  <!-- CHOICE 1,n -->
-  <learningOutcome>...</learningOutcome>
+  <learningOutcomeReferences>
+    <!-- CHOICE 1,n -->
+    <learningOutcome>...</learningOutcome>
+  </learningOutcomeReferences>
 
 Elements
 --------

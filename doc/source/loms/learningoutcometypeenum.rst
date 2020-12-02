@@ -1,7 +1,7 @@
 .. _learningoutcometypeenum-type:
 
-LearningOutcomeTypeEnum
-=======================
+LearningOutcomeTypeEnum type
+============================
 
 
 

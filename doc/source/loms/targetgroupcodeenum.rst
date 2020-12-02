@@ -1,7 +1,7 @@
 .. _targetgroupcodeenum-type:
 
-TargetGroupCodeEnum
-===================
+TargetGroupCodeEnum type
+========================
 
 
 

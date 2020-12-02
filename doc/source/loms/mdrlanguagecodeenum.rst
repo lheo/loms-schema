@@ -1,7 +1,7 @@
 .. _mdrlanguagecodeenum-type:
 
-MDRLanguageCodeEnum
-===================
+MDRLanguageCodeEnum type
+========================
 
 
 

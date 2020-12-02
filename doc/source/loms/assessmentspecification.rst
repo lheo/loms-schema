@@ -1,29 +1,39 @@
 .. _assessmentspecification-type:
 
-AssessmentSpecification
-=======================
+AssessmentSpecification type
+============================
 
 An AssessmentSpecification is a specification of a process establishing the extent to which a learner has attained particular knowledge, skills and competences against criteria such as learning outcomes or standards of competence.
 
 .. code-block:: xml
 
-  <!-- SEQUENCE -->
-  <!-- begin group CommonSpecificationElements -->
-  <identifier>...</identifier> <!-- 0,n -->
-  <title>...</title> <!-- 0,n -->
-  <altLabel>...</altLabel> <!-- 0,n -->
-  <description>...</description> <!-- 0,n -->
-  <additionalNote>...</additionalNote> <!-- 0,n -->
-  <homepage>...</homepage> <!-- 0,n -->
-  <supplementaryDoc>...</supplementaryDoc> <!-- 0,n -->
-  <!-- end group CommonSpecificationElements -->
-  <type>...</type> <!-- 0,n -->
-  <language>...</language> <!-- 0,n -->
-  <mode>...</mode> <!-- 0,n -->
-  <gradingScheme>...</gradingScheme> <!-- 0,n -->
-  <proves>...</proves> <!-- 0,n -->
-  <hasPart>...</hasPart> <!-- 0,n -->
-  <specializationOf>...</specializationOf> <!-- 0,n -->
+  <... id="...">
+    <!-- SEQUENCE -->
+    <!-- begin group CommonSpecificationElements -->
+    <identifier>...</identifier> <!-- 0,n -->
+    <title>...</title> <!-- 0,n -->
+    <altLabel>...</altLabel> <!-- 0,n -->
+    <description>...</description> <!-- 0,n -->
+    <additionalNote>...</additionalNote> <!-- 0,n -->
+    <homepage>...</homepage> <!-- 0,n -->
+    <supplementaryDoc>...</supplementaryDoc> <!-- 0,n -->
+    <!-- end group CommonSpecificationElements -->
+    <type>...</type> <!-- 0,n -->
+    <language>...</language> <!-- 0,n -->
+    <mode>...</mode> <!-- 0,n -->
+    <gradingScheme>...</gradingScheme> <!-- 0,n -->
+    <proves>...</proves> <!-- 0,n -->
+    <hasPart>...</hasPart> <!-- 0,n -->
+    <specializationOf>...</specializationOf> <!-- 0,n -->
+  </...>
+
+
+Attributes
+-----------
+
+``id``: ``required`` :ref:`id-type`
+	A portable identifier of the assessment specification. (i.e. a urn in the uuid namespace). It is this identifier that MUST be used to link or refer to this assessment specification from other places within the document.
+
 
 Elements
 --------
@@ -58,7 +68,7 @@ Elements
 ``mode``: :ref:`learningmode-type`
 	The mode of learning and or assessment (i.e. online, blended, presential, work based)
 
-``gradingScheme``: :ref:`gradingscheme-type`
+``gradingScheme``: :ref:`gradingscheme-element`
 	Used grading scheme. It MUST refer to an existing record in the 'scoringSchemeReferences'-section of this document.
 
 ``proves``: :ref:`idreference-type`
@@ -69,12 +79,5 @@ Elements
 
 ``specializationOf``: :ref:`idreference-type`
 	An assessment specification (a "package") can be a specialization of another assessment specification. It MUST refer to an existing record in the 'assessmentSpecificationReferences'-section of this document.
-
-
-Attributes
------------
-
-``id``: ``required`` :ref:`id-type`
-	A portable identifier of the assessment specification. (i.e. a urn in the uuid namespace). It is this identifier that MUST be used to link or refer to this assessment specification from other places within the document.
 
 

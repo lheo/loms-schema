@@ -1,7 +1,7 @@
 .. _subjecttypecodeenum-type:
 
-SubjectTypeCodeEnum
-===================
+SubjectTypeCodeEnum type
+========================
 
 
 

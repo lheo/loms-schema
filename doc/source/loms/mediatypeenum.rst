@@ -1,7 +1,7 @@
 .. _mediatypeenum-type:
 
-MediaTypeEnum
-=============
+MediaTypeEnum type
+==================
 
 
 

@@ -1,7 +1,7 @@
 .. _languageenum-type:
 
-LanguageEnum
-============
+LanguageEnum type
+=================
 
 
 

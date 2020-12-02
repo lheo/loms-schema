@@ -1,9 +1,14 @@
-.. _nqflevel-type:
+.. _nqflevel-element:
 
-NqfLevel
-========
+nqfLevel element
+================
 
 A qualification can be part of a national qualification framework (NQF Qualification) which can be specified by the NQF level. This the qualification level as specified by a National Qualifications Framework.
+
+.. code-block:: xml
+
+  <nqfLevel>
+  </nqfLevel>
 
 Restricts: :ref:`code-type`
 

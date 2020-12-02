@@ -1,7 +1,7 @@
 .. _uribasedcode-type:
 
-URIBasedCode
-============
+URIBasedCode type
+=================
 
 A code (i.e a code from a controlled vocabulary) that can be fully identified by a URI
 

@@ -1,7 +1,7 @@
 .. _locationcodecontent-type:
 
-LocationCodeContent
-===================
+LocationCodeContent type
+========================
 
 
 

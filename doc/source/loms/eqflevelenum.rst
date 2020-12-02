@@ -1,7 +1,7 @@
 .. _eqflevelenum-type:
 
-EQFLevelEnum
-============
+EQFLevelEnum type
+=================
 
 
 

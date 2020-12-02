@@ -1,7 +1,7 @@
 .. _textcontenttypecodeenum-type:
 
-TextContentTypeCodeEnum
-=======================
+TextContentTypeCodeEnum type
+============================
 
 
 

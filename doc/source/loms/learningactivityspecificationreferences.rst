@@ -1,14 +1,16 @@
-.. _learningactivityspecificationreferences-type:
+.. _learningactivityspecificationreferences-element:
 
-LearningActivitySpecificationReferences
-=======================================
+learningActivitySpecificationReferences element
+===============================================
 
-
+Container element to record all LearningActivitySpecification entities that can be linked or refered to from other places in the xml document.
 
 .. code-block:: xml
 
-  <!-- SEQUENCE -->
-  <learningActivitySpecification>...</learningActivitySpecification> <!-- 0,n -->
+  <learningActivitySpecificationReferences>
+    <!-- SEQUENCE -->
+    <learningActivitySpecification>...</learningActivitySpecification> <!-- 0,n -->
+  </learningActivitySpecificationReferences>
 
 Elements
 --------

@@ -1,18 +1,24 @@
-.. _haseducationlevel-type:
+.. _haseducationlevel-element:
 
-HasEducationLevel
-=================
+hasEducationLevel element
+=========================
 
-An level of education within a semantic framework describing education levels.
+An associated level of education within a semantic framework describing education levels.
+
+.. code-block:: xml
+
+  <hasEducationLevel>
+  </hasEducationLevel>
 
 Restricts: :ref:`code-type`
 
 .. code-block:: xml
 
-  <!-- SEQUENCE -->
-  <targetName>...</targetName> <!-- 0,n -->
-  <targetDescription>...</targetDescription> <!-- 0,n -->
-  <targetFrameworkName>...</targetFrameworkName> <!-- 0,n -->
+
+    <!-- SEQUENCE -->
+    <targetName>...</targetName> <!-- 0,n -->
+    <targetDescription>...</targetDescription> <!-- 0,n -->
+    <targetFrameworkName>...</targetFrameworkName> <!-- 0,n -->
 
 Elements
 --------

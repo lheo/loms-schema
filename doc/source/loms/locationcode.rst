@@ -1,7 +1,7 @@
 .. _locationcode-type:
 
-LocationCode
-============
+LocationCode type
+=================
 
 
 

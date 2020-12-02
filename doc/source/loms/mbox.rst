@@ -1,7 +1,7 @@
 .. _mbox-type:
 
-MBox
-====
+MBox type
+=========
 
 A mailbox (ie. an Internet mailbox)
 

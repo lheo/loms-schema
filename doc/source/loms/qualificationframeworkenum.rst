@@ -1,7 +1,7 @@
 .. _qualificationframeworkenum-type:
 
-QualificationFrameworkEnum
-==========================
+QualificationFrameworkEnum type
+===============================
 
 
 

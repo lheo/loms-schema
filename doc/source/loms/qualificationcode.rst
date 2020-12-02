@@ -1,16 +1,22 @@
-.. _qualificationcode-type:
+.. _qualificationcode-element:
 
-QualificationCode
-=================
+qualificationCode element
+=========================
 
 An identifying code from a qualification based reference semantic asset. This property is used to classify the qualification information with a qualification from a known qualification framework. (e.g. the link to the accredidated NQF qualification)
+
+.. code-block:: xml
+
+  <qualificationCode>
+  </qualificationCode>
 
 Restricts: :ref:`code-type`
 
 .. code-block:: xml
 
-  <!-- SEQUENCE -->
-  <targetFrameworkName>...</targetFrameworkName> <!-- 0,n -->
+
+    <!-- SEQUENCE -->
+    <targetFrameworkName>...</targetFrameworkName> <!-- 0,n -->
 
 Elements
 --------

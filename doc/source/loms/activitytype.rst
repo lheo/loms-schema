@@ -1,7 +1,7 @@
 .. _activitytype-type:
 
-ActivityType
-============
+ActivityType type
+=================
 
 
 

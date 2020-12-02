@@ -1,7 +1,7 @@
 .. _documenturl-type:
 
-DocumentURL
-===========
+DocumentURL type
+================
 
 
 

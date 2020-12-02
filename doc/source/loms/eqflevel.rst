@@ -1,9 +1,14 @@
-.. _eqflevel-type:
+.. _eqflevel-element:
 
-EQFLevel
-========
+eqfLevel element
+================
 
+The qualification level as specified by the European Qualification Framework.
 
+.. code-block:: xml
+
+  <eqfLevel uri="...">
+  </eqfLevel>
 
 Restricts: :ref:`uribasedcode-type`
 

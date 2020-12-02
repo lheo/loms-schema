@@ -1,7 +1,7 @@
 .. _mdradministrativeterritorialunitcodeenum-type:
 
-MDRAdministrativeTerritorialUnitCodeEnum
-========================================
+MDRAdministrativeTerritorialUnitCodeEnum type
+=============================================
 
 Code list for Administrative Territorial Unit based on http://publications.europa.eu/resource/dataset/atu, atu-skos.rdf (version: 20181114-0).
 

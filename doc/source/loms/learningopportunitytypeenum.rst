@@ -1,7 +1,7 @@
 .. _learningopportunitytypeenum-type:
 
-LearningOpportunityTypeEnum
-===========================
+LearningOpportunityTypeEnum type
+================================
 
 
 

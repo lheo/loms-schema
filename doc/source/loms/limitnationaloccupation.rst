@@ -1,18 +1,24 @@
-.. _limitnationaloccupation-type:
+.. _limitnationaloccupation-element:
 
-LimitNationalOccupation
-=======================
+limitNationalOccupation element
+===============================
 
 A link to a National Occupation.
+
+.. code-block:: xml
+
+  <limitNationalOccupation>
+  </limitNationalOccupation>
 
 Restricts: :ref:`code-type`
 
 .. code-block:: xml
 
-  <!-- SEQUENCE -->
-  <targetName>...</targetName> <!-- 0,n -->
-  <targetDescription>...</targetDescription> <!-- 0,n -->
-  <targetFrameworkName>...</targetFrameworkName> <!-- 0,n -->
+
+    <!-- SEQUENCE -->
+    <targetName>...</targetName> <!-- 0,n -->
+    <targetDescription>...</targetDescription> <!-- 0,n -->
+    <targetFrameworkName>...</targetFrameworkName> <!-- 0,n -->
 
 Elements
 --------

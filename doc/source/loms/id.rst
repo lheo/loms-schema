@@ -1,7 +1,7 @@
 .. _id-type:
 
-Id
-==
+Id type
+=======
 
 A portable identifier of an entity (i.e. a urn in the uuid namespace).
 

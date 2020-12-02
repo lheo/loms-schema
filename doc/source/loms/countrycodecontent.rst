@@ -1,7 +1,7 @@
 .. _countrycodecontent-type:
 
-CountryCodeContent
-==================
+CountryCodeContent type
+=======================
 
 
 

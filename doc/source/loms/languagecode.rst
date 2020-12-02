@@ -1,7 +1,7 @@
 .. _languagecode-type:
 
-LanguageCode
-============
+LanguageCode type
+=================
 
 
 

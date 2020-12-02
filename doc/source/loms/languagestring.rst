@@ -1,14 +1,17 @@
 .. _languagestring-type:
 
-LanguageString
-==============
+LanguageString type
+===================
 
 A character string (i.e. a finite set of characters) in the form of words of a language.
 
 .. code-block:: xml
 
-  <!-- SEQUENCE -->
-  <text>...</text> <!-- 1,1 -->
+  <...>
+    <!-- SEQUENCE -->
+    <text>...</text> <!-- 1,1 -->
+  </...>
+
 
 Elements
 --------
