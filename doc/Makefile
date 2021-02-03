@@ -5,7 +5,7 @@
 # from the environment for the first two.
 SPHINXOPTS    ?=
 SPHINXBUILD   ?= sphinx-build
-PUBLISHDIR ?= www_onisep/languages/loms/1.0.0/doc
+PUBLISHDIR ?= www_dev/languages/loms/1.0.0/doc
 PUBLISHHOST ?= lheo@boreon.silbercafe.net
 
 SOURCEDIR     = source
@@ -134,6 +134,10 @@ source/loms/qualificationcode.rst \
 source/loms/relatedescoskill.rst \
 source/loms/limitoccupation.rst \
 source/loms/limitnationaloccupation.rst
+
+# Put it first so that "make" without argument is like "make help".
+help:
+	@$(SPHINXBUILD) -M help "$(SOURCEDIR)" "$(BUILDDIR)" $(SPHINXOPTS) $(O)
 
 # Generated with: xsltproc ../../gelaba/xsd-scripts/xsd2makefile.xsl ../ploteus/static/schemas/LOMSv1.0/loms.xsd
 #source/loms/qmslearningopportunities.rst: $(TORST) $(LOMS)
@@ -367,9 +371,6 @@ source/loms/limitoccupation.rst: $(TORST) $(LOMS)
 source/loms/limitnationaloccupation.rst: $(TORST) $(LOMS)
 	$(XSLTPROC) -o $@ --stringparam typename LimitNationalOccupationType $(TORST) $(LOMS)
 
-# Put it first so that "make" without argument is like "make help".
-help:
-	@$(SPHINXBUILD) -M help "$(SOURCEDIR)" "$(BUILDDIR)" $(SPHINXOPTS) $(O)
 
 .PHONY: help Makefile html clean publish xsdinfo
 
