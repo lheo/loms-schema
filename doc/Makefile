@@ -6,7 +6,7 @@
 SPHINXOPTS    ?=
 SPHINXBUILD   ?= sphinx-build
 PUBLISHDIR ?= www_dev/languages/loms/1.0.0/doc
-PUBLISHHOST ?= lheo@boreon.silbercafe.net
+PUBLISHHOST ?= lheo@dev.lheo.org
 
 SOURCEDIR     = source
 BUILDDIR      = build
